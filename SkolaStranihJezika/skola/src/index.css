@@ -1,6 +1,6 @@
 body {
   background-color: #99ccff;
-  padding: 20px;
+  padding: 15px;
   margin: 0;
 }
 h1, h2, p, ul, li {
@@ -10,10 +10,12 @@ ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
+  
 }
 ul.header {
   background-color: #111;
-  padding: 0;
+  padding: 0px;
+  width: 100%;
 }
 ul.header li a {
   color: #FFF;
@@ -24,7 +26,8 @@ ul.header li a {
 }
 .content {
   background-color: #FFF;
-  padding: 20px;
+  padding: 0;
+  width: 100%;
 }
 .content h2 {
   padding: 0;
@@ -35,4 +38,28 @@ ul.header li a {
 }
 .active {
   background-color: #0099FF;
+}
+
+.user-name {
+	background-color: red;
+	padding: 20px;
+	float:left;
+	width: 80%;
+}
+.UserCont {
+	background-color: #fff;
+	width: 77%;
+	min-height: 200px;
+	padding: 22px;
+	float:left;
+}
+.side {
+	float:left;
+	width: 20%;
+}
+.menu {
+	background-color: blue;
+	padding: 20px;
+	width:80%;
+	float:left;
 }
