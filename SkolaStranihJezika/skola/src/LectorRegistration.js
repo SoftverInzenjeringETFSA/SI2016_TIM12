@@ -12,25 +12,25 @@ class LectorRegistration extends Component {
         <form name="LectorRegistrationForm" onSubmit={() => {return this.loginValidation}}>
           <label>Ime:&nbsp;&nbsp;</label>
           <input type="text" ref="predavacIme"/>
-
+          <br />
           <label>Prezime:&nbsp;&nbsp;</label>
           <input type="text" ref="predavacPrezime"/>
-
+          <br />
           <label>Broj Telefona:&nbsp;&nbsp;</label>
           <input type="text" ref="brojTelefona"/>
-
+          <br />
           <label>E-mail:&nbsp;&nbsp;</label>
           <input type="text" placeholder="example@example.com" ref="email"/>
-
+          <br />
           <label>Korisničko Ime:&nbsp;&nbsp;</label>
           <input type="text" ref="korisnickoIme"/>
-
+          <br />
           <label>Šifra:&nbsp;&nbsp;</label>
           <input type="text" ref="sifra"/>
-
+          <br />
           <label>Ponovite šifru:&nbsp;&nbsp;</label>
           <input type="text" ref="ponoviSifru"/>
-
+          <br />
           <label>Jezik i stepen:&nbsp;&nbsp;</label>
           <select ref="jezikSelect">
             <option value="njemackiA1">Njemački A1</option>
@@ -52,7 +52,7 @@ class LectorRegistration extends Component {
             <option value="spanskiC1">Španski C1</option>
             <option value="spanskiC2">Španski C2</option>
           </select>
-
+          <br />
           <button type="submit">Registruj</button>
         </form>
       </div>
