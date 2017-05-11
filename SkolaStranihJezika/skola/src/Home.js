@@ -15,8 +15,8 @@ class Home extends Component {
           dis parturient montes, nascetur ridiculus mus.</p>
   
           <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
-        </div>
-    );
+        </div>)
+		
   }
 }
 module.exports = Home;

@@ -51,9 +51,7 @@ class App extends Component {
           <IndexRoute component={Home} />
 			  <Route path='about' component={About} />
 			  <Route path='contact' component={Contact} />
-			  <Route path='login' component={Login} >
-					<Route path="stranica1" component={User}/>
-					</Route>
+			  <Route path='login' component={Login} />
 			  <Route path='registration' component={Registration} />
 			  <Route path='*' component={NotFound} />
         </Route>

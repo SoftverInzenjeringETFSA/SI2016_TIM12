@@ -3,12 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 import User from './User';
 import { Router, Route, Link, IndexLink, IndexRoute, hashHistory, browserHistory } from 'react-router';
+import LoginView from './LoginView';
 
+var contacts = [
+  {key: 1, name: "James K Nelson", email: "james@jamesknelson.com", description: "Front-end Unicorn"},
+  {key: 2, name: "Jim", email: "jim@example.com"},
+  {key: 3, name: "Joe"},
+]
+
+var newContact = {name: "", email: "", description: ""}
 
 class Login extends Component {
   render() {
     return (
-	  <Container1 />
+	  React.createElement(LoginView, { contacts: contacts, newContact: newContact})
     );
   }
 }
