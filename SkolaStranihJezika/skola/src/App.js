@@ -6,35 +6,12 @@ import About from './About';
 import Login from './Login';
 import Registration from './Registration';
 import User from './User';
+import AdminPage from './AdminPage';
+import UciteljPage from './UciteljPage';
+import KorisnikPage from './KorisnikPage';
+import Container1 from './KorisnikPage';
 
-var ContactForm = React.createClass({
-  propTypes: {
-    value: React.PropTypes.object.isRequired,
-    onChange: React.PropTypes.func.isRequired,
-},
 
-  render: function() {
-    return (
-      React.createElement('form', {className: 'ContactForm'},
-        React.createElement('input', {
-          type: 'text',
-          placeholder: 'Name (required)',
-          value: this.props.value.name,
-        }),
-        React.createElement('input', {
-          type: 'email',
-          placeholder: 'Email',
-          value: this.props.value.email,
-        }),
-        React.createElement('textarea', {
-          placeholder: 'Description',
-          value: this.props.value.description,
-        }),
-        React.createElement('button', {type: 'submit'}, "Add Contact")
-      )
-    )
-  },
-});
 React.createElement("input", {
     // The callback passed to `onChange` will be called when `value` should change
     onChange: function(syntheticEvent) {
@@ -53,6 +30,13 @@ class App extends Component {
 			  <Route path='contact' component={Contact} />
 			  <Route path='login' component={Login} />
 			  <Route path='registration' component={Registration} />
+				
+			  <Route path='korisnikpage' component={KorisnikPage} >
+					<IndexRoute component={About} />
+			  </Route>
+			  <Route path='uciteljpage' component={UciteljPage} />
+			  
+			  <Route path='adminpage' component={AdminPage} />
 			  <Route path='*' component={NotFound} />
         </Route>
       </Router>
@@ -69,6 +53,9 @@ const Nav = () => (
           <li><Link to="/contact" activeClassName="active">Kontakt</Link></li>
 		  <li><Link to="/login" activeClassName="active">Prijava</Link></li>
 		  <li><Link to="/registration" activeClassName="active">Registracija</Link></li>
+		  <li><Link to="/korisnikpage" activeClassName="active">KorisnikPage</Link></li>
+		  <li><Link to="/uciteljpage" activeClassName="active">UciteljPage</Link></li>
+		  <li><Link to="/adminpage" activeClassName="active">AdminPage</Link></li>
         </ul>
   </div>
 )
