@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { Component } from 'react';
 class LectorRegistration extends Component {
 
     loginValidation(){
@@ -61,4 +60,4 @@ class LectorRegistration extends Component {
   }
 }
 
-export default LectorRegistration;
+module.exports = LectorRegistration;
