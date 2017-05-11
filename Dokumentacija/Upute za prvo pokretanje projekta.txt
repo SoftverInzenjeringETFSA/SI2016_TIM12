@@ -1,0 +1,30 @@
+1. Preuzeti node.js sa: 
+	https://nodejs.org/en/download/
+
+2. Instalirati node.js prateæi korake navedene u install wizardu
+
+3. Kreirati folder sa proizvoljnim nazivom
+
+4. Pokrenuti CMD i pozicionirati se u taj folder
+
+5. Ukucati komande:
+	npm install -g create-react-app
+	create-react-app my-app
+
+gdje je my-app naziv koji želite dati aplikaciji
+
+6. Pozicionirati se u my-app sa:
+	 cd my-app
+
+7. Preuzeti fajlove sa: https://github.com/SoftverInzenjeringETFSA/SI2016_TIM12
+
+8. Kopirati sadržaj foldera SkolaStranihJezika/skola u kreirani my-app folder(prebrisati postojeæe    fajlove ukoliko to bude predloženo)
+
+9. Pokrenuti ponovo CMD i pozicionirati se u folder my-app
+
+10. Instalirati react ruter komandom:
+	npm i react react-dom react-router@2.0.1 --save
+
+11. Pokrenuti server komandom:
+	npm start --hot
+ 
