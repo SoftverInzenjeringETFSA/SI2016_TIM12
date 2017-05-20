@@ -59,7 +59,7 @@ public class StudentDaoImpl implements StudentDao {
 	@Override
 	public List<Student> dajStudentaPoKorisnickomImenu(String korisnickoIme, String sifra) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Query query = session.createQuery("from Studenti where korisnickoIme = :korisnickoIme and sifra = :sifra");
+		Query query = session.createQuery("from Student where korisnickoIme = :korisnickoIme and sifra = :sifra");
 		query.setParameter("korisnickoIme", korisnickoIme);
 		query.setParameter("sifra", sifra);
 		List<Student> listaStudenata =  query.list();

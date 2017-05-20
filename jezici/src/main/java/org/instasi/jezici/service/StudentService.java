@@ -11,6 +11,6 @@ public interface StudentService {
 	public List<Student> listaStudenata();
 	public Student dajStudentaPoIdu(int id);
 	public void obrisiStudenta(int id);
-	public List<Student> dajStudentaPoIdu(String korisnickoIme, String sifra);
+	public List<Student> dajStudentaPoKorisnickomImenu(String korisnickoIme, String sifra);
 
 }

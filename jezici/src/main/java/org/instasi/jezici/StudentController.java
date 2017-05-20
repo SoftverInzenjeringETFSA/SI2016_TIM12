@@ -76,7 +76,7 @@ public class StudentController {
 			
 		}
 		model.addAttribute("poruka", poruka);
-		return "rezultatRegistracije";
+		return "greska";
 	}
 	
 	@RequestMapping(value = "/prijava", method = RequestMethod.GET)
@@ -85,12 +85,28 @@ public class StudentController {
 	}
 	
 	@RequestMapping(value = "/prijava", method = RequestMethod.POST)
-	public String obradaPrijave(HttpServletRequest request,
+	public String obradaPrijave(Model model, HttpServletRequest request,
 			@RequestParam(value="korisnickoIme", required = true) String korisnickoIme,
 			@RequestParam(value="sifra", required = true) String sifra
 			){
-		System.out.println(korisnickoIme + " " +sifra); 
-		return "prijava";
+		try{
+			List<Student> l = studentService.dajStudentaPoKorisnickomImenu(korisnickoIme, sifra);
+			if(l.size() == 0) 
+			{
+				model.addAttribute("poruka", "Pogresni podaci su uneseni<br>");
+				return "greska";
+			}
+			else
+			{
+				return "pocetna";
+			}
+			
+		}
+		catch(Exception ex){
+			System.out.println(ex.getMessage());
+			return "greska";
+		}
+		
 	}
 
 
@@ -105,7 +121,5 @@ public class StudentController {
 		
 		return "redirect:/studenti";
 	}
-		
-	
 
 }

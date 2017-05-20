@@ -40,7 +40,7 @@ public class StudentServiceImpl implements StudentService {
 	
 	@Override
 	@Transactional
-	public List<Student> dajStudentaPoIdu(String korisnickoIme, String sifra) {
+	public List<Student> dajStudentaPoKorisnickomImenu(String korisnickoIme, String sifra) {
 		return this.getStudentDao().dajStudentaPoKorisnickomImenu(korisnickoIme, sifra);
 	}
 
