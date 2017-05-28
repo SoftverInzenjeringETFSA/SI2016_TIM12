@@ -5,85 +5,82 @@ import Panel from 'react-bootstrap/lib/Panel';
 import Pagination from 'react-bootstrap/lib/Pagination';
 import PageHeader from 'react-bootstrap/lib/PageHeader';
 import Well from 'react-bootstrap/lib/Well';
-
+import axios from 'axios';
 
 const title = 'Table';
+
+function prijavljivanjeNaKurs(studentId)
+{
+  alert("Ova funkcionalnost jos nije dodana");
+}
+
+var IspisSvihKurseva = React.createClass({
+
+  getInitialState: function() {
+      return {
+        users: []
+      }
+    },
+
+    componentDidMount: function() {
+      var _this = this;
+      axios
+        .get("http://localhost:8080/kursevi")
+        .then(function(result) {   
+          _this.setState({
+            users: result.data
+          });
+        });
+    },
+  
+  render: function() {
+    return (
+            <div>
+      <div className="col-lg-12">
+        <PageHeader>Svi kursevi</PageHeader>
+      </div>    
+        <div className="col-lg-6">
+          <Panel header={<span>Kursevi</span>} >
+            <div className="table-responsive">
+              <table className="table table-striped table-bordered table-hover">
+                <thead>
+                  <tr>                 
+                    <th>Jezik</th>
+                    <th>Stepen </th>                 
+                    <th>Izbrisi kurs</th>
+                  </tr>
+                </thead>
+                <tbody>                 
+
+                  {
+                    this.state.users.map(function(user) {
+                  return (
+                    <tr key={user.id}>             
+                    <td>{user.naziv}</td>
+                    <td>{user.stepen}</td>                              
+                 <td><button type="button" onClick ={(event)=>{prijavljivanjeNaKurs(user.id);}}>Prijavi se na ovaj kurs</button></td>
+                       </tr>
+                  );
+                })
+                
+                 
+                }
+                </tbody>
+              </table>
+            </div>
+          </Panel>             
+      </div>
+    </div>
+    );
+  }
+});
 
 function displayTable(props, context) {
   context.setTitle(title);
   return (
     <div>
-      <div className="col-lg-12">
-        <PageHeader>Svi korisnici</PageHeader>
-      </div>    
-        <div className="col-lg-6">
-          <Panel header={<span>Učenici </span>} >
-            <div className="table-responsive">
-              <table className="table table-striped table-bordered table-hover">
-                <thead>
-                  <tr>                 
-                    <th>Naziv kursa</th>
-                    <th>Ko predaje </th>                 
-                    <th>idi na stranicu kursa</th>
-
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>                
-                    <td>Ajla</td>
-                    <td>Sukrija </td>                              
-                    <td><button type="button">Izbrisi</button></td>
-                  </tr>
-                  <tr>                
-                    <td>Ajlica </td>
-                    <td> Sukrijcia</td>   
-                   
-                                      
-                    <td><button type="button" onClick = {(event) => { history.push('/kursstranica');}} >Izbrisi</button></td>
-                  </tr>
-                  
-                </tbody>
-              </table>
-            </div>
-          </Panel>
-              
-      </div>
-
-
-
-   
-        <div className="col-lg-6">
-          <Panel header={<span>Profesori: </span>} >
-            <div className="table-responsive">
-              <table className="table table-striped table-bordered table-hover">
-                <thead>
-                  <tr>                 
-                    <th>Ime</th>
-                    <th>Prezime </th>                 
-                    <th>Izbrisi korisnika</th>
-
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>                
-                    <td>Ajla</td>
-                    <td>Sukrija </td>                              
-                    <td><button type="button">Izbrisi</button></td>
-                  </tr>
-                  <tr>                
-                    <td>Ajlica </td>
-                    <td> Sukrijcia</td>                        
-                    <td><button type="button">Izbrisi</button></td>
-                  </tr>
-                  
-                </tbody>
-              </table>
-            </div>
-          </Panel>
-        </div>      
-      
+    <IspisSvihKurseva />
     </div>
-
   );
 }
 
