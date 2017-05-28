@@ -1,5 +1,8 @@
 package org.instasi.jeziki.springbootstarter.controllers;
 
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,7 +29,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -151,6 +157,70 @@ public class PredavacController {
 		
 		
 	}
+	
+	@RequestMapping(value = "/postavljanjeMaterijala", method = RequestMethod.POST)
+	public @ResponseBody
+	void uploadFileHandler(@RequestParam("kurs") int kurs,
+			@RequestParam("file") MultipartFile file) {
+
+		
+		
+		
+		
+		if (!file.isEmpty() ) 
+				 {
+			try {
+				byte[] bytes = file.getBytes();
+
+			
+				
+				
+				
+				// Creating the directory to store file
+				String rootPath = System.getProperty("catalina.home");
+				rootPath = "C:\\";
+				
+				File dir = new File(rootPath + File.separator + Integer.toString(kurs));
+				if (!dir.exists())
+					dir.mkdirs();
+				
+				
+
+				
+				dir = new File(dir + File.separator + Integer.toString(kurs));
+				if (!dir.exists())
+					dir.mkdirs();
+				
+				
+				System.out.println(dir.getAbsolutePath());
+
+				
+				// Create the file on server
+				File serverFile = new File(dir.getAbsolutePath() 
+						+ File.separator + Integer.toString(kurs) + ".pdf");
+				BufferedOutputStream stream = new BufferedOutputStream(
+						new FileOutputStream(serverFile));
+				stream.write(bytes);
+				stream.close();
+
+				
+				
+				
+				System.out.println("uspjesan upload");
+				
+
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+
+			}
+		} else {
+			System.out.println("prazan fajl");
+
+
+		}
+		
+
+		}
 	
 	
 	
