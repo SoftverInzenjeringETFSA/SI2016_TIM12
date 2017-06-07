@@ -58,6 +58,11 @@ class SidebarUcitelj extends Component {
                     
                   </a>
                 </li>
+                 <li>
+              <a href="" onClick={(e) => { e.preventDefault(); history.push('/pomoc3'); }} >
+                <i className="fa fa-dashboard fa-fw" /> &nbsp;Pomoć
+              </a>
+            </li>
               
     
 

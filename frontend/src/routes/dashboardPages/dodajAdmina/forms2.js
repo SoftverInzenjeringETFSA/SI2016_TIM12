@@ -70,7 +70,7 @@ function displayForms(props, context) {
               <FormControl
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Korisničko ime"
                 name="name"
                 id="iUsername"
               />
@@ -79,7 +79,7 @@ function displayForms(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Password"
+                placeholder="Šifra"
                 type="password"
                 name="password"
                 id="iPassword"
@@ -89,7 +89,7 @@ function displayForms(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Confirm Password"
+                placeholder="Potvrdi šifru"
                 type="password"
                 name="password"
                 id="iPasswordConfirm"

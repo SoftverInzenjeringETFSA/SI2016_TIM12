@@ -14,7 +14,7 @@ function displayTable(props, context) {
   return (
     <div>
       <div className="col-lg-12">
-        <PageHeader>Tables</PageHeader>
+        <PageHeader></PageHeader>
       </div>
 
     

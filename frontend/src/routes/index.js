@@ -23,6 +23,10 @@ import forms2 from './dashboardPages/forms2';
 import dodajadmina from './dashboardPages/dodajAdmina';
 import kursevi from './dashboardPages/kursevi';
 
+import pomoc1 from './dashboardPages/pomoc1';
+import pomoc2 from './dashboardPages/pomoc2';
+import pomoc3 from './dashboardPages/pomoc3';
+
 import svikorisnicipredavaci from './dashboardPages/svikorisnicipredavaci';
 import svikorisnicistudenti from './dashboardPages/svikorisnicistudenti';
 import svikorisniciadmini from './dashboardPages/svikorisniciadmini';
@@ -39,7 +43,7 @@ import dodavanjeterminaforma from './dashboardPages/dodavanjeTerminaForma';
 import svikursevi from './dashboardPages/sviKursevi';
 import zavrsenikursevi from './dashboardPages/zavrseniKursevi';
 import mojikursevi from './dashboardPages/mojiKursevi';
-import grid from './dashboardPages/grid';
+
 import icons from './dashboardPages/icons';
 import morrisjscharts from './dashboardPages/morrisjsCharts';
 import notification from './dashboardPages/notification';
@@ -127,7 +131,10 @@ export default [
       flotcharts,
       forms,
       forms2,
-      grid,
+   
+      pomoc1,
+      pomoc2,
+      pomoc3,
 
       //ucitelj frome
       dodavanjelekcijeforma,

@@ -124,7 +124,7 @@ module.exports =
   
   var _routes2 = _interopRequireDefault(_routes);
   
-  var _assets = __webpack_require__(228);
+  var _assets = __webpack_require__(234);
   
   var _assets2 = _interopRequireDefault(_assets);
   
@@ -644,7 +644,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n* {\n  line-height: 1.2;\n  margin: 0;\n}\n\nhtml {\n  color: #888;\n  display: table;\n  font-family: sans-serif;\n  height: 100%;\n  text-align: center;\n  width: 100%;\n}\n\nbody {\n  display: table-cell;\n  vertical-align: middle;\n  /* stylelint-disable */\n  margin: 2em auto;\n  /* stylelint-enable */\n}\n\nh1 {\n  color: #555;\n  font-size: 2em;\n  font-weight: 400;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\npre {\n  text-align: left;\n  margin-top: 32px;\n  margin-top: 2rem;\n}\n\n@media only screen and (max-width: 280px) {\n  body,\n  p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n}\n", "", {"version":3,"sources":["/./routes/error/ErrorPage.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE,iBAAiB;EACjB,UAAU;CACX;;AAED;EACE,YAAY;EACZ,eAAe;EACf,wBAAwB;EACxB,aAAa;EACb,mBAAmB;EACnB,YAAY;CACb;;AAED;EACE,oBAAoB;EACpB,uBAAuB;EACvB,uBAAuB;EACvB,iBAAiB;EACjB,sBAAsB;CACvB;;AAED;EACE,YAAY;EACZ,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;EACE,iBAAiB;EACjB,iBAAiB;EAAjB,iBAAiB;CAClB;;AAED;EACE;;IAEE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;GACnB;CACF","file":"ErrorPage.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n* {\n  line-height: 1.2;\n  margin: 0;\n}\n\nhtml {\n  color: #888;\n  display: table;\n  font-family: sans-serif;\n  height: 100%;\n  text-align: center;\n  width: 100%;\n}\n\nbody {\n  display: table-cell;\n  vertical-align: middle;\n  /* stylelint-disable */\n  margin: 2em auto;\n  /* stylelint-enable */\n}\n\nh1 {\n  color: #555;\n  font-size: 2em;\n  font-weight: 400;\n}\n\np {\n  margin: 0 auto;\n  width: 280px;\n}\n\npre {\n  text-align: left;\n  margin-top: 2rem;\n}\n\n@media only screen and (max-width: 280px) {\n  body,\n  p {\n    width: 95%;\n  }\n\n  h1 {\n    font-size: 1.5em;\n    margin: 0 0 0.3em;\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  line-height: 1.2;\r\n  margin: 0;\r\n}\r\n\r\nhtml {\r\n  color: #888;\r\n  display: table;\r\n  font-family: sans-serif;\r\n  height: 100%;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  vertical-align: middle;\r\n  /* stylelint-disable */\r\n  margin: 2em auto;\r\n  /* stylelint-enable */\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-size: 2em;\r\n  font-weight: 400;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\npre {\r\n  text-align: left;\r\n  margin-top: 32px;\r\n  margin-top: 2rem;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n  body,\r\n  p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n  }\r\n}\r\n", "", {"version":3,"sources":["/./routes/error/ErrorPage.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE,iBAAiB;EACjB,UAAU;CACX;;AAED;EACE,YAAY;EACZ,eAAe;EACf,wBAAwB;EACxB,aAAa;EACb,mBAAmB;EACnB,YAAY;CACb;;AAED;EACE,oBAAoB;EACpB,uBAAuB;EACvB,uBAAuB;EACvB,iBAAiB;EACjB,sBAAsB;CACvB;;AAED;EACE,YAAY;EACZ,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,aAAa;CACd;;AAED;EACE,iBAAiB;EACjB,iBAAiB;EAAjB,iBAAiB;CAClB;;AAED;EACE;;IAEE,WAAW;GACZ;;EAED;IACE,iBAAiB;IACjB,kBAAkB;GACnB;CACF","file":"ErrorPage.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n* {\r\n  line-height: 1.2;\r\n  margin: 0;\r\n}\r\n\r\nhtml {\r\n  color: #888;\r\n  display: table;\r\n  font-family: sans-serif;\r\n  height: 100%;\r\n  text-align: center;\r\n  width: 100%;\r\n}\r\n\r\nbody {\r\n  display: table-cell;\r\n  vertical-align: middle;\r\n  /* stylelint-disable */\r\n  margin: 2em auto;\r\n  /* stylelint-enable */\r\n}\r\n\r\nh1 {\r\n  color: #555;\r\n  font-size: 2em;\r\n  font-weight: 400;\r\n}\r\n\r\np {\r\n  margin: 0 auto;\r\n  width: 280px;\r\n}\r\n\r\npre {\r\n  text-align: left;\r\n  margin-top: 2rem;\r\n}\r\n\r\n@media only screen and (max-width: 280px) {\r\n  body,\r\n  p {\r\n    width: 95%;\r\n  }\r\n\r\n  h1 {\r\n    font-size: 1.5em;\r\n    margin: 0 0 0.3em;\r\n  }\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
 
@@ -1474,87 +1474,95 @@ module.exports =
   
   var _dodajAdmina2 = _interopRequireDefault(_dodajAdmina);
   
-  var _kursevi = __webpack_require__(229);
+  var _kursevi = __webpack_require__(186);
   
   var _kursevi2 = _interopRequireDefault(_kursevi);
   
-  var _svikorisnicipredavaci = __webpack_require__(186);
+  var _pomoc = __webpack_require__(188);
+  
+  var _pomoc2 = _interopRequireDefault(_pomoc);
+  
+  var _pomoc3 = __webpack_require__(190);
+  
+  var _pomoc4 = _interopRequireDefault(_pomoc3);
+  
+  var _pomoc5 = __webpack_require__(192);
+  
+  var _pomoc6 = _interopRequireDefault(_pomoc5);
+  
+  var _svikorisnicipredavaci = __webpack_require__(194);
   
   var _svikorisnicipredavaci2 = _interopRequireDefault(_svikorisnicipredavaci);
   
-  var _svikorisnicistudenti = __webpack_require__(188);
+  var _svikorisnicistudenti = __webpack_require__(196);
   
   var _svikorisnicistudenti2 = _interopRequireDefault(_svikorisnicistudenti);
   
-  var _svikorisniciadmini = __webpack_require__(190);
+  var _svikorisniciadmini = __webpack_require__(198);
   
   var _svikorisniciadmini2 = _interopRequireDefault(_svikorisniciadmini);
   
-  var _dashboardUcitelj = __webpack_require__(192);
+  var _dashboardUcitelj = __webpack_require__(200);
   
   var _dashboardUcitelj2 = _interopRequireDefault(_dashboardUcitelj);
   
-  var _kursStranica = __webpack_require__(194);
+  var _kursStranica = __webpack_require__(202);
   
   var _kursStranica2 = _interopRequireDefault(_kursStranica);
   
-  var _dodavanjeLekcijeForma = __webpack_require__(196);
+  var _dodavanjeLekcijeForma = __webpack_require__(204);
   
   var _dodavanjeLekcijeForma2 = _interopRequireDefault(_dodavanjeLekcijeForma);
   
-  var _dodavanjeTestaForma = __webpack_require__(198);
+  var _dodavanjeTestaForma = __webpack_require__(206);
   
   var _dodavanjeTestaForma2 = _interopRequireDefault(_dodavanjeTestaForma);
   
-  var _dodavanjeTerminaForma = __webpack_require__(200);
+  var _dodavanjeTerminaForma = __webpack_require__(208);
   
   var _dodavanjeTerminaForma2 = _interopRequireDefault(_dodavanjeTerminaForma);
   
-  var _sviKursevi = __webpack_require__(202);
+  var _sviKursevi = __webpack_require__(210);
   
   var _sviKursevi2 = _interopRequireDefault(_sviKursevi);
   
-  var _zavrseniKursevi = __webpack_require__(204);
+  var _zavrseniKursevi = __webpack_require__(212);
   
   var _zavrseniKursevi2 = _interopRequireDefault(_zavrseniKursevi);
   
-  var _mojiKursevi = __webpack_require__(206);
+  var _mojiKursevi = __webpack_require__(214);
   
   var _mojiKursevi2 = _interopRequireDefault(_mojiKursevi);
   
-  var _grid = __webpack_require__(208);
-  
-  var _grid2 = _interopRequireDefault(_grid);
-  
-  var _icons = __webpack_require__(210);
+  var _icons = __webpack_require__(216);
   
   var _icons2 = _interopRequireDefault(_icons);
   
-  var _morrisjsCharts = __webpack_require__(212);
+  var _morrisjsCharts = __webpack_require__(218);
   
   var _morrisjsCharts2 = _interopRequireDefault(_morrisjsCharts);
   
-  var _notification = __webpack_require__(215);
+  var _notification = __webpack_require__(221);
   
   var _notification2 = _interopRequireDefault(_notification);
   
-  var _panelWells = __webpack_require__(217);
+  var _panelWells = __webpack_require__(223);
   
   var _panelWells2 = _interopRequireDefault(_panelWells);
   
-  var _typography = __webpack_require__(219);
+  var _typography = __webpack_require__(225);
   
   var _typography2 = _interopRequireDefault(_typography);
   
-  var _blank = __webpack_require__(221);
+  var _blank = __webpack_require__(227);
   
   var _blank2 = _interopRequireDefault(_blank);
   
-  var _error = __webpack_require__(223);
+  var _error = __webpack_require__(229);
   
   var _error2 = _interopRequireDefault(_error);
   
-  var _naslovna = __webpack_require__(224);
+  var _naslovna = __webpack_require__(230);
   
   var _naslovna2 = _interopRequireDefault(_naslovna);
   
@@ -1714,7 +1722,7 @@ module.exports =
     // keep in mind, routes are evaluated in order
     children: [_home2.default, _notification2.default, _dodajAdmina2.default, _kursStranica2.default, _svikorisnicipredavaci2.default, _svikorisnicistudenti2.default, _svikorisniciadmini2.default,
     // contact,
-    _tables2.default, _mojiKursevi2.default, _zavrseniKursevi2.default, _sviKursevi2.default, _buttons2.default, _flotCharts2.default, _forms2.default, _forms4.default, _grid2.default,
+    _tables2.default, _mojiKursevi2.default, _zavrseniKursevi2.default, _sviKursevi2.default, _buttons2.default, _flotCharts2.default, _forms2.default, _forms4.default, _pomoc2.default, _pomoc4.default, _pomoc6.default,
   
     //ucitelj frome
     _dodavanjeLekcijeForma2.default, _dodavanjeTestaForma2.default, _dodavanjeTerminaForma2.default, _dashboardUcitelj2.default, _kursevi2.default, _icons2.default, _morrisjsCharts2.default, _panelWells2.default, _typography2.default,
@@ -2025,7 +2033,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Change the default font family in all browsers (opinionated).\n * 2. Correct the line height in all browsers.\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  line-height: 1.15; /* 2 */\n  -ms-text-size-adjust: 100%; /* 3 */\n  -webkit-text-size-adjust: 100%; /* 3 */\n}\n\n/**\n * Remove the margin in all browsers (opinionated).\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n * 2. Add the correct display in IE.\n */\n\narticle,\naside,\ndetails, /* 1 */\nfigcaption,\nfigure,\nfooter,\nheader,\nmain, /* 2 */\nmenu,\nnav,\nsection,\nsummary { /* 1 */\n  display: block;\n}\n\n/**\n * Add the correct display in IE 9-.\n */\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in iOS 4-7.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Add the correct display in IE 10-.\n * 1. Add the correct display in IE.\n */\n\ntemplate, /* 1 */\n[hidden] {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\n\na {\n  background-color: transparent; /* 1 */\n  -webkit-text-decoration-skip: objects; /* 2 */\n}\n\n/**\n * Remove the outline on focused links when they are also active or hovered\n * in all browsers (opinionated).\n */\n\na:active,\na:hover {\n  outline-width: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * 1. Remove the bottom border in Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\n\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * Add the correct font style in Android 4.3-.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Add the correct background and color in IE 9-.\n */\n\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\n\nimg {\n  border-style: none;\n}\n\n/**\n * Hide the overflow in IE.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct margin in IE 8.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change font properties to `inherit` in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Restore the font weight unset by the previous rule.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\nhtml [type=\"button\"], /* 1 */\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Change the border, margin, and padding in all browsers (opinionated).\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\n\nlegend {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\n */\n\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\n */\n\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-size: 1em; /* ~16px; */\n  font-family: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n  line-height: 1.375; /* ~22px */\n}\n\na {\n  color: #0074c2;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n.browserupgrade {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    -webkit-box-shadow: none !important;\n            box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n", "", {"version":3,"sources":["/./components/App/App.css","/../node_modules/normalize.css/normalize.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH,4EAA4E;;AAE5E;;;;GAIG;;AAEH;EACE,wBAAwB,CAAC,OAAO;EAChC,kBAAkB,CAAC,OAAO;EAC1B,2BAA2B,CAAC,OAAO;EACnC,+BAA+B,CAAC,OAAO;CACxC;;AAED;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;gFACgF;;AAEhF;;;;GAIG;;AAEH;;;;;;;;;;;UAWU,OAAO;EACf,eAAe;CAChB;;AAED;;GAEG;;AAEH;;;;EAIE,sBAAsB;CACvB;;AAED;;GAEG;;AAEH;EACE,cAAc;EACd,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,yBAAyB;CAC1B;;AAED;;;GAGG;;AAEH;;EAEE,cAAc;CACf;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,sCAAsC,CAAC,OAAO;CAC/C;;AAED;;;GAGG;;AAEH;;EAEE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;EACE,oBAAoB,CAAC,OAAO;EAC5B,2BAA2B,CAAC,OAAO;EACnC,kCAAkC,CAAC,OAAO;CAC3C;;AAED;;GAEG;;AAEH;;EAEE,qBAAqB;CACtB;;AAED;;GAEG;;AAEH;;EAEE,oBAAoB;CACrB;;AAED;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;;GAGG;;AAEH;EACE,eAAe;EACf,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,uBAAuB;EACvB,YAAY;CACb;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;;EAEE,eAAe;EACf,eAAe;EACf,mBAAmB;EACnB,yBAAyB;CAC1B;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,YAAY;CACb;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;EAIE,kCAAkC,CAAC,OAAO;EAC1C,eAAe,CAAC,OAAO;CACxB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;;GAGG;;AAEH;EACE,gCAAwB;UAAxB,wBAAwB,CAAC,OAAO;EAChC,UAAU,CAAC,OAAO;EAClB,kBAAkB,CAAC,OAAO;CAC3B;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;;EAKE,cAAc,CAAC,OAAO;EACtB,UAAU,CAAC,OAAO;CACnB;;AAED;;GAEG;;AAEH;EACE,kBAAkB;CACnB;;AAED;;;GAGG;;AAEH;QACQ,OAAO;EACb,kBAAkB;CACnB;;AAED;;;GAGG;;AAEH;SACS,OAAO;EACd,qBAAqB;CACtB;;AAED;;;;GAIG;;AAEH;;;;EAIE,2BAA2B,CAAC,OAAO;CACpC;;AAED;;GAEG;;AAEH;;;;EAIE,mBAAmB;EACnB,WAAW;CACZ;;AAED;;GAEG;;AAEH;;;;EAIE,+BAA+B;CAChC;;AAED;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,cAAc;EACd,+BAA+B;CAChC;;AAED;;;;;GAKG;;AAEH;EACE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,eAAe,CAAC,OAAO;EACvB,eAAe,CAAC,OAAO;EACvB,gBAAgB,CAAC,OAAO;EACxB,WAAW,CAAC,OAAO;EACnB,oBAAoB,CAAC,OAAO;CAC7B;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;;EAEE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,WAAW,CAAC,OAAO;CACpB;;AAED;;GAEG;;AAEH;;EAEE,aAAa;CACd;;AAED;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,qBAAqB,CAAC,OAAO;CAC9B;;AAED;;GAEG;;AAEH;;EAEE,yBAAyB;CAC1B;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,cAAc;CACf;;AAED;;;GAGG;;AAEH;EACE,2BAA2B,CAAC,OAAO;EACnC,cAAc,CAAC,OAAO;CACvB;;AD1ZD,yEAAyE;;AEXzE;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;AFfD;;gFAEgF;;AAEhF;EACE,YAAY;EACZ,eAAe,CAAC,YAAY;EAC5B,2DAAqC;EACrC,mBAAmB,CAAC,WAAW;CAChC;;AAED;EACE,eAAe;CAChB;;AAED;;;;;;GAMG;;AAEH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;;AAED;;;;GAIG;;AAEH;;;;;;EAME,uBAAuB;CACxB;;AAED;;GAEG;;AAEH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;gFAEgF;;AAEhF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;;AAED;;;;gFAIgF;;AAEhF;EACE;;;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAA4B;YAA5B,4BAA4B;IAC5B,6BAA6B;GAC9B;;EAED;;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;;EAEH;;IAEE,YAAY;GACb;;EAED;;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;;EAEH;IACE,4BAA4B;GAC7B;;EAED;;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;;;IAGE,WAAW;IACX,UAAU;GACX;;EAED;;IAEE,wBAAwB;GACzB;CACF","file":"App.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../../node_modules/normalize.css/normalize.css';\n\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\n\n@import '../variables.css';\n\n/*\n * Base styles\n * ========================================================================== */\n\nhtml {\n  color: #222;\n  font-size: 1em; /* ~16px; */\n  font-family: var(--font-family-base);\n  line-height: 1.375; /* ~22px */\n}\n\na {\n  color: #0074c2;\n}\n\n/*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n::selection {\n  background: #b3d4fc;\n  text-shadow: none;\n}\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n  display: block;\n  height: 1px;\n  border: 0;\n  border-top: 1px solid #ccc;\n  margin: 1em 0;\n  padding: 0;\n}\n\n/*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n\naudio,\ncanvas,\niframe,\nimg,\nsvg,\nvideo {\n  vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n * Browser upgrade prompt\n * ========================================================================== */\n\n:global(.browserupgrade) {\n  margin: 0.2em 0;\n  background: #ccc;\n  color: #000;\n  padding: 0.2em 0;\n}\n\n/*\n * Print styles\n * Inlined to avoid the additional HTTP request:\n * http://www.phpied.com/delay-loading-your-print-css/\n * ========================================================================== */\n\n@media print {\n  *,\n  *::before,\n  *::after {\n    background: transparent !important;\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n    box-shadow: none !important;\n    text-shadow: none !important;\n  }\n\n  a,\n  a:visited {\n    text-decoration: underline;\n  }\n\n  a[href]::after {\n    content: ' (' attr(href) ')';\n  }\n\n  abbr[title]::after {\n    content: ' (' attr(title) ')';\n  }\n\n  /*\n   * Don't show links that are fragment identifiers,\n   * or use the `javascript:` pseudo protocol\n   */\n\n  a[href^='#']::after,\n  a[href^='javascript:']::after {\n    content: '';\n  }\n\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid;\n  }\n\n  /*\n   * Printing Tables:\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\n   */\n\n  thead {\n    display: table-header-group;\n  }\n\n  tr,\n  img {\n    page-break-inside: avoid;\n  }\n\n  img {\n    max-width: 100% !important;\n  }\n\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3;\n  }\n\n  h2,\n  h3 {\n    page-break-after: avoid;\n  }\n}\n","/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Change the default font family in all browsers (opinionated).\n * 2. Correct the line height in all browsers.\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  line-height: 1.15; /* 2 */\n  -ms-text-size-adjust: 100%; /* 3 */\n  -webkit-text-size-adjust: 100%; /* 3 */\n}\n\n/**\n * Remove the margin in all browsers (opinionated).\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n * 2. Add the correct display in IE.\n */\n\narticle,\naside,\ndetails, /* 1 */\nfigcaption,\nfigure,\nfooter,\nheader,\nmain, /* 2 */\nmenu,\nnav,\nsection,\nsummary { /* 1 */\n  display: block;\n}\n\n/**\n * Add the correct display in IE 9-.\n */\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in iOS 4-7.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Add the correct display in IE 10-.\n * 1. Add the correct display in IE.\n */\n\ntemplate, /* 1 */\n[hidden] {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\n\na {\n  background-color: transparent; /* 1 */\n  -webkit-text-decoration-skip: objects; /* 2 */\n}\n\n/**\n * Remove the outline on focused links when they are also active or hovered\n * in all browsers (opinionated).\n */\n\na:active,\na:hover {\n  outline-width: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * 1. Remove the bottom border in Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\n\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * Add the correct font style in Android 4.3-.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Add the correct background and color in IE 9-.\n */\n\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\n\nimg {\n  border-style: none;\n}\n\n/**\n * Hide the overflow in IE.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct margin in IE 8.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change font properties to `inherit` in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Restore the font weight unset by the previous rule.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\nhtml [type=\"button\"], /* 1 */\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Change the border, margin, and padding in all browsers (opinionated).\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\n\nlegend {\n  box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\n */\n\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\n */\n\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\r\n\r\n/**\n * 1. Change the default font family in all browsers (opinionated).\n * 2. Correct the line height in all browsers.\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\n */\r\n\r\nhtml {\n  font-family: sans-serif; /* 1 */\n  line-height: 1.15; /* 2 */\n  -ms-text-size-adjust: 100%; /* 3 */\n  -webkit-text-size-adjust: 100%; /* 3 */\n}\r\n\r\n/**\n * Remove the margin in all browsers (opinionated).\n */\r\n\r\nbody {\n  margin: 0;\n}\r\n\r\n/* HTML5 display definitions\n   ========================================================================== */\r\n\r\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n * 2. Add the correct display in IE.\n */\r\n\r\narticle,\naside,\ndetails, /* 1 */\nfigcaption,\nfigure,\nfooter,\nheader,\nmain, /* 2 */\nmenu,\nnav,\nsection,\nsummary { /* 1 */\n  display: block;\n}\r\n\r\n/**\n * Add the correct display in IE 9-.\n */\r\n\r\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\r\n\r\n/**\n * Add the correct display in iOS 4-7.\n */\r\n\r\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\r\n\r\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\r\n\r\nprogress {\n  vertical-align: baseline;\n}\r\n\r\n/**\n * Add the correct display in IE 10-.\n * 1. Add the correct display in IE.\n */\r\n\r\ntemplate, /* 1 */\n[hidden] {\n  display: none;\n}\r\n\r\n/* Links\n   ========================================================================== */\r\n\r\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\r\n\r\na {\n  background-color: transparent; /* 1 */\n  -webkit-text-decoration-skip: objects; /* 2 */\n}\r\n\r\n/**\n * Remove the outline on focused links when they are also active or hovered\n * in all browsers (opinionated).\n */\r\n\r\na:active,\na:hover {\n  outline-width: 0;\n}\r\n\r\n/* Text-level semantics\n   ========================================================================== */\r\n\r\n/**\n * 1. Remove the bottom border in Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\r\n\r\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\r\n\r\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\r\n\r\nb,\nstrong {\n  font-weight: inherit;\n}\r\n\r\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\r\n\r\nb,\nstrong {\n  font-weight: bolder;\n}\r\n\r\n/**\n * Add the correct font style in Android 4.3-.\n */\r\n\r\ndfn {\n  font-style: italic;\n}\r\n\r\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\r\n\r\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\r\n\r\n/**\n * Add the correct background and color in IE 9-.\n */\r\n\r\nmark {\n  background-color: #ff0;\n  color: #000;\n}\r\n\r\n/**\n * Add the correct font size in all browsers.\n */\r\n\r\nsmall {\n  font-size: 80%;\n}\r\n\r\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\r\n\r\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\r\n\r\nsub {\n  bottom: -0.25em;\n}\r\n\r\nsup {\n  top: -0.5em;\n}\r\n\r\n/* Embedded content\n   ========================================================================== */\r\n\r\n/**\n * Remove the border on images inside links in IE 10-.\n */\r\n\r\nimg {\n  border-style: none;\n}\r\n\r\n/**\n * Hide the overflow in IE.\n */\r\n\r\nsvg:not(:root) {\n  overflow: hidden;\n}\r\n\r\n/* Grouping content\n   ========================================================================== */\r\n\r\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\r\n\r\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\r\n\r\n/**\n * Add the correct margin in IE 8.\n */\r\n\r\nfigure {\n  margin: 1em 40px;\n}\r\n\r\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\r\n\r\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\r\n\r\n/* Forms\n   ========================================================================== */\r\n\r\n/**\n * 1. Change font properties to `inherit` in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\r\n\r\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit; /* 1 */\n  margin: 0; /* 2 */\n}\r\n\r\n/**\n * Restore the font weight unset by the previous rule.\n */\r\n\r\noptgroup {\n  font-weight: bold;\n}\r\n\r\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\r\n\r\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\r\n\r\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\r\n\r\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\r\n\r\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\r\n\r\nbutton,\nhtml [type=\"button\"], /* 1 */\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n}\r\n\r\n/**\n * Remove the inner border and padding in Firefox.\n */\r\n\r\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\r\n\r\n/**\n * Restore the focus styles unset by the previous rule.\n */\r\n\r\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\r\n\r\n/**\n * Change the border, margin, and padding in all browsers (opinionated).\n */\r\n\r\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\r\n\r\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\r\n\r\nlegend {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\r\n\r\n/**\n * Remove the default vertical scrollbar in IE.\n */\r\n\r\ntextarea {\n  overflow: auto;\n}\r\n\r\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\r\n\r\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\r\n\r\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\r\n\r\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\r\n\r\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\r\n\r\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\r\n\r\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\n */\r\n\r\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\r\n\r\n/**\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\n */\r\n\r\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\r\n\r\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\r\n\r\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\r\n\r\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\r\n\r\n/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\r\n}\r\n\r\n/*\r\n * Base styles\r\n * ========================================================================== */\r\n\r\nhtml {\r\n  color: #222;\r\n  font-size: 1em; /* ~16px; */\r\n  font-family: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n  line-height: 1.375; /* ~22px */\r\n}\r\n\r\na {\r\n  color: #0074c2;\r\n}\r\n\r\n/*\r\n * Remove text-shadow in selection highlight:\r\n * https://twitter.com/miketaylr/status/12228805301\r\n *\r\n * These selection rule sets have to be separate.\r\n * Customize the background color to match your design.\r\n */\r\n\r\n::-moz-selection {\r\n  background: #b3d4fc;\r\n  text-shadow: none;\r\n}\r\n\r\n::selection {\r\n  background: #b3d4fc;\r\n  text-shadow: none;\r\n}\r\n\r\n/*\r\n * A better looking default horizontal rule\r\n */\r\n\r\nhr {\r\n  display: block;\r\n  height: 1px;\r\n  border: 0;\r\n  border-top: 1px solid #ccc;\r\n  margin: 1em 0;\r\n  padding: 0;\r\n}\r\n\r\n/*\r\n * Remove the gap between audio, canvas, iframes,\r\n * images, videos and the bottom of their containers:\r\n * https://github.com/h5bp/html5-boilerplate/issues/440\r\n */\r\n\r\naudio,\r\ncanvas,\r\niframe,\r\nimg,\r\nsvg,\r\nvideo {\r\n  vertical-align: middle;\r\n}\r\n\r\n/*\r\n * Remove default fieldset styles.\r\n */\r\n\r\nfieldset {\r\n  border: 0;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n/*\r\n * Allow only vertical resizing of textareas.\r\n */\r\n\r\ntextarea {\r\n  resize: vertical;\r\n}\r\n\r\n/*\r\n * Browser upgrade prompt\r\n * ========================================================================== */\r\n\r\n.browserupgrade {\r\n  margin: 0.2em 0;\r\n  background: #ccc;\r\n  color: #000;\r\n  padding: 0.2em 0;\r\n}\r\n\r\n/*\r\n * Print styles\r\n * Inlined to avoid the additional HTTP request:\r\n * http://www.phpied.com/delay-loading-your-print-css/\r\n * ========================================================================== */\r\n\r\n@media print {\r\n  *,\r\n  *::before,\r\n  *::after {\r\n    background: transparent !important;\r\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\r\n    -webkit-box-shadow: none !important;\r\n            box-shadow: none !important;\r\n    text-shadow: none !important;\r\n  }\r\n\r\n  a,\r\n  a:visited {\r\n    text-decoration: underline;\r\n  }\r\n\r\n  a[href]::after {\r\n    content: ' (' attr(href) ')';\r\n  }\r\n\r\n  abbr[title]::after {\r\n    content: ' (' attr(title) ')';\r\n  }\r\n\r\n  /*\r\n   * Don't show links that are fragment identifiers,\r\n   * or use the `javascript:` pseudo protocol\r\n   */\r\n\r\n  a[href^='#']::after,\r\n  a[href^='javascript:']::after {\r\n    content: '';\r\n  }\r\n\r\n  pre,\r\n  blockquote {\r\n    border: 1px solid #999;\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  /*\r\n   * Printing Tables:\r\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\r\n   */\r\n\r\n  thead {\r\n    display: table-header-group;\r\n  }\r\n\r\n  tr,\r\n  img {\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  img {\r\n    max-width: 100% !important;\r\n  }\r\n\r\n  p,\r\n  h2,\r\n  h3 {\r\n    orphans: 3;\r\n    widows: 3;\r\n  }\r\n\r\n  h2,\r\n  h3 {\r\n    page-break-after: avoid;\r\n  }\r\n}\r\n", "", {"version":3,"sources":["/./components/App/App.css","/../node_modules/normalize.css/normalize.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH,4EAA4E;;AAE5E;;;;GAIG;;AAEH;EACE,wBAAwB,CAAC,OAAO;EAChC,kBAAkB,CAAC,OAAO;EAC1B,2BAA2B,CAAC,OAAO;EACnC,+BAA+B,CAAC,OAAO;CACxC;;AAED;;GAEG;;AAEH;EACE,UAAU;CACX;;AAED;gFACgF;;AAEhF;;;;GAIG;;AAEH;;;;;;;;;;;UAWU,OAAO;EACf,eAAe;CAChB;;AAED;;GAEG;;AAEH;;;;EAIE,sBAAsB;CACvB;;AAED;;GAEG;;AAEH;EACE,cAAc;EACd,UAAU;CACX;;AAED;;GAEG;;AAEH;EACE,yBAAyB;CAC1B;;AAED;;;GAGG;;AAEH;;EAEE,cAAc;CACf;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,sCAAsC,CAAC,OAAO;CAC/C;;AAED;;;GAGG;;AAEH;;EAEE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;EACE,oBAAoB,CAAC,OAAO;EAC5B,2BAA2B,CAAC,OAAO;EACnC,kCAAkC,CAAC,OAAO;CAC3C;;AAED;;GAEG;;AAEH;;EAEE,qBAAqB;CACtB;;AAED;;GAEG;;AAEH;;EAEE,oBAAoB;CACrB;;AAED;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;;GAGG;;AAEH;EACE,eAAe;EACf,iBAAiB;CAClB;;AAED;;GAEG;;AAEH;EACE,uBAAuB;EACvB,YAAY;CACb;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;;EAEE,eAAe;EACf,eAAe;EACf,mBAAmB;EACnB,yBAAyB;CAC1B;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,YAAY;CACb;;AAED;gFACgF;;AAEhF;;GAEG;;AAEH;EACE,mBAAmB;CACpB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;EAIE,kCAAkC,CAAC,OAAO;EAC1C,eAAe,CAAC,OAAO;CACxB;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;;GAGG;;AAEH;EACE,gCAAwB;UAAxB,wBAAwB,CAAC,OAAO;EAChC,UAAU,CAAC,OAAO;EAClB,kBAAkB,CAAC,OAAO;CAC3B;;AAED;gFACgF;;AAEhF;;;GAGG;;AAEH;;;;;EAKE,cAAc,CAAC,OAAO;EACtB,UAAU,CAAC,OAAO;CACnB;;AAED;;GAEG;;AAEH;EACE,kBAAkB;CACnB;;AAED;;;GAGG;;AAEH;QACQ,OAAO;EACb,kBAAkB;CACnB;;AAED;;;GAGG;;AAEH;SACS,OAAO;EACd,qBAAqB;CACtB;;AAED;;;;GAIG;;AAEH;;;;EAIE,2BAA2B,CAAC,OAAO;CACpC;;AAED;;GAEG;;AAEH;;;;EAIE,mBAAmB;EACnB,WAAW;CACZ;;AAED;;GAEG;;AAEH;;;;EAIE,+BAA+B;CAChC;;AAED;;GAEG;;AAEH;EACE,0BAA0B;EAC1B,cAAc;EACd,+BAA+B;CAChC;;AAED;;;;;GAKG;;AAEH;EACE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,eAAe,CAAC,OAAO;EACvB,eAAe,CAAC,OAAO;EACvB,gBAAgB,CAAC,OAAO;EACxB,WAAW,CAAC,OAAO;EACnB,oBAAoB,CAAC,OAAO;CAC7B;;AAED;;GAEG;;AAEH;EACE,eAAe;CAChB;;AAED;;;GAGG;;AAEH;;EAEE,+BAAuB;UAAvB,uBAAuB,CAAC,OAAO;EAC/B,WAAW,CAAC,OAAO;CACpB;;AAED;;GAEG;;AAEH;;EAEE,aAAa;CACd;;AAED;;;GAGG;;AAEH;EACE,8BAA8B,CAAC,OAAO;EACtC,qBAAqB,CAAC,OAAO;CAC9B;;AAED;;GAEG;;AAEH;;EAEE,yBAAyB;CAC1B;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,cAAc;CACf;;AAED;;;GAGG;;AAEH;EACE,2BAA2B,CAAC,OAAO;EACnC,cAAc,CAAC,OAAO;CACvB;;AD1ZD,yEAAyE;;AEXzE;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;AFfD;;gFAEgF;;AAEhF;EACE,YAAY;EACZ,eAAe,CAAC,YAAY;EAC5B,2DAAqC;EACrC,mBAAmB,CAAC,WAAW;CAChC;;AAED;EACE,eAAe;CAChB;;AAED;;;;;;GAMG;;AAEH;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,kBAAkB;CACnB;;AAED;;GAEG;;AAEH;EACE,eAAe;EACf,YAAY;EACZ,UAAU;EACV,2BAA2B;EAC3B,cAAc;EACd,WAAW;CACZ;;AAED;;;;GAIG;;AAEH;;;;;;EAME,uBAAuB;CACxB;;AAED;;GAEG;;AAEH;EACE,UAAU;EACV,UAAU;EACV,WAAW;CACZ;;AAED;;GAEG;;AAEH;EACE,iBAAiB;CAClB;;AAED;;gFAEgF;;AAEhF;EACE,gBAAgB;EAChB,iBAAiB;EACjB,YAAY;EACZ,iBAAiB;CAClB;;AAED;;;;gFAIgF;;AAEhF;EACE;;;IAGE,mCAAmC;IACnC,uBAAuB,CAAC,+DAA+D;IACvF,oCAA4B;YAA5B,4BAA4B;IAC5B,6BAA6B;GAC9B;;EAED;;IAEE,2BAA2B;GAC5B;;EAED;IACE,6BAA6B;GAC9B;;EAED;IACE,8BAA8B;GAC/B;;EAED;;;KAGG;;EAEH;;IAEE,YAAY;GACb;;EAED;;IAEE,uBAAuB;IACvB,yBAAyB;GAC1B;;EAED;;;KAGG;;EAEH;IACE,4BAA4B;GAC7B;;EAED;;IAEE,yBAAyB;GAC1B;;EAED;IACE,2BAA2B;GAC5B;;EAED;;;IAGE,WAAW;IACX,UAAU;GACX;;EAED;;IAEE,wBAAwB;GACzB;CACF","file":"App.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../../../node_modules/normalize.css/normalize.css';\r\n\r\n/*! React Starter Kit | MIT License | https://www.reactstarterkit.com/ */\r\n\r\n@import '../variables.css';\r\n\r\n/*\r\n * Base styles\r\n * ========================================================================== */\r\n\r\nhtml {\r\n  color: #222;\r\n  font-size: 1em; /* ~16px; */\r\n  font-family: var(--font-family-base);\r\n  line-height: 1.375; /* ~22px */\r\n}\r\n\r\na {\r\n  color: #0074c2;\r\n}\r\n\r\n/*\r\n * Remove text-shadow in selection highlight:\r\n * https://twitter.com/miketaylr/status/12228805301\r\n *\r\n * These selection rule sets have to be separate.\r\n * Customize the background color to match your design.\r\n */\r\n\r\n::-moz-selection {\r\n  background: #b3d4fc;\r\n  text-shadow: none;\r\n}\r\n\r\n::selection {\r\n  background: #b3d4fc;\r\n  text-shadow: none;\r\n}\r\n\r\n/*\r\n * A better looking default horizontal rule\r\n */\r\n\r\nhr {\r\n  display: block;\r\n  height: 1px;\r\n  border: 0;\r\n  border-top: 1px solid #ccc;\r\n  margin: 1em 0;\r\n  padding: 0;\r\n}\r\n\r\n/*\r\n * Remove the gap between audio, canvas, iframes,\r\n * images, videos and the bottom of their containers:\r\n * https://github.com/h5bp/html5-boilerplate/issues/440\r\n */\r\n\r\naudio,\r\ncanvas,\r\niframe,\r\nimg,\r\nsvg,\r\nvideo {\r\n  vertical-align: middle;\r\n}\r\n\r\n/*\r\n * Remove default fieldset styles.\r\n */\r\n\r\nfieldset {\r\n  border: 0;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n/*\r\n * Allow only vertical resizing of textareas.\r\n */\r\n\r\ntextarea {\r\n  resize: vertical;\r\n}\r\n\r\n/*\r\n * Browser upgrade prompt\r\n * ========================================================================== */\r\n\r\n:global(.browserupgrade) {\r\n  margin: 0.2em 0;\r\n  background: #ccc;\r\n  color: #000;\r\n  padding: 0.2em 0;\r\n}\r\n\r\n/*\r\n * Print styles\r\n * Inlined to avoid the additional HTTP request:\r\n * http://www.phpied.com/delay-loading-your-print-css/\r\n * ========================================================================== */\r\n\r\n@media print {\r\n  *,\r\n  *::before,\r\n  *::after {\r\n    background: transparent !important;\r\n    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */\r\n    box-shadow: none !important;\r\n    text-shadow: none !important;\r\n  }\r\n\r\n  a,\r\n  a:visited {\r\n    text-decoration: underline;\r\n  }\r\n\r\n  a[href]::after {\r\n    content: ' (' attr(href) ')';\r\n  }\r\n\r\n  abbr[title]::after {\r\n    content: ' (' attr(title) ')';\r\n  }\r\n\r\n  /*\r\n   * Don't show links that are fragment identifiers,\r\n   * or use the `javascript:` pseudo protocol\r\n   */\r\n\r\n  a[href^='#']::after,\r\n  a[href^='javascript:']::after {\r\n    content: '';\r\n  }\r\n\r\n  pre,\r\n  blockquote {\r\n    border: 1px solid #999;\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  /*\r\n   * Printing Tables:\r\n   * http://css-discuss.incutio.com/wiki/Printing_Tables\r\n   */\r\n\r\n  thead {\r\n    display: table-header-group;\r\n  }\r\n\r\n  tr,\r\n  img {\r\n    page-break-inside: avoid;\r\n  }\r\n\r\n  img {\r\n    max-width: 100% !important;\r\n  }\r\n\r\n  p,\r\n  h2,\r\n  h3 {\r\n    orphans: 3;\r\n    widows: 3;\r\n  }\r\n\r\n  h2,\r\n  h3 {\r\n    page-break-after: avoid;\r\n  }\r\n}\r\n","/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */\n\n/**\n * 1. Change the default font family in all browsers (opinionated).\n * 2. Correct the line height in all browsers.\n * 3. Prevent adjustments of font size after orientation changes in IE and iOS.\n */\n\nhtml {\n  font-family: sans-serif; /* 1 */\n  line-height: 1.15; /* 2 */\n  -ms-text-size-adjust: 100%; /* 3 */\n  -webkit-text-size-adjust: 100%; /* 3 */\n}\n\n/**\n * Remove the margin in all browsers (opinionated).\n */\n\nbody {\n  margin: 0;\n}\n\n/* HTML5 display definitions\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n * 2. Add the correct display in IE.\n */\n\narticle,\naside,\ndetails, /* 1 */\nfigcaption,\nfigure,\nfooter,\nheader,\nmain, /* 2 */\nmenu,\nnav,\nsection,\nsummary { /* 1 */\n  display: block;\n}\n\n/**\n * Add the correct display in IE 9-.\n */\n\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Add the correct display in iOS 4-7.\n */\n\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Add the correct display in IE 10-.\n * 1. Add the correct display in IE.\n */\n\ntemplate, /* 1 */\n[hidden] {\n  display: none;\n}\n\n/* Links\n   ========================================================================== */\n\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\n\na {\n  background-color: transparent; /* 1 */\n  -webkit-text-decoration-skip: objects; /* 2 */\n}\n\n/**\n * Remove the outline on focused links when they are also active or hovered\n * in all browsers (opinionated).\n */\n\na:active,\na:hover {\n  outline-width: 0;\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * 1. Remove the bottom border in Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\n\nb,\nstrong {\n  font-weight: inherit;\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * Add the correct font style in Android 4.3-.\n */\n\ndfn {\n  font-style: italic;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/**\n * Add the correct background and color in IE 9-.\n */\n\nmark {\n  background-color: #ff0;\n  color: #000;\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\n\nimg {\n  border-style: none;\n}\n\n/**\n * Hide the overflow in IE.\n */\n\nsvg:not(:root) {\n  overflow: hidden;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct margin in IE 8.\n */\n\nfigure {\n  margin: 1em 40px;\n}\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change font properties to `inherit` in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font: inherit; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Restore the font weight unset by the previous rule.\n */\n\noptgroup {\n  font-weight: bold;\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\nhtml [type=\"button\"], /* 1 */\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; /* 2 */\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Change the border, margin, and padding in all browsers (opinionated).\n */\n\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\n\nlegend {\n  box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.\n */\n\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * Correct the text style of placeholders in Chrome, Edge, and Safari.\n */\n\n::-webkit-input-placeholder {\n  color: inherit;\n  opacity: 0.54;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n","/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  --max-content-width: 1000px;\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */\r\n\r\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\r\n  --screen-sm-min: 768px;  /* Small screen / tablet */\r\n  --screen-md-min: 992px;  /* Medium screen / desktop */\r\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
 
@@ -2128,7 +2136,7 @@ module.exports =
               _react2.default.createElement(
                 'span',
                 { className: 'sr-only' },
-                'Toggle navigation'
+                'Navigacija'
               ),
               _react2.default.createElement('span', { className: 'icon-bar' }),
               _react2.default.createElement('span', { className: 'icon-bar' }),
@@ -2142,27 +2150,6 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.NavDropdown,
             { title: _react2.default.createElement('i', { className: 'fa fa-user fa-fw' }), id: 'navDropdown4' },
-            _react2.default.createElement(
-              _reactBootstrap.MenuItem,
-              { eventKey: '1' },
-              _react2.default.createElement(
-                'span',
-                null,
-                ' ',
-                _react2.default.createElement('i', { className: 'fa fa-user fa-fw' }),
-                ' User Profile '
-              )
-            ),
-            _react2.default.createElement(
-              _reactBootstrap.MenuItem,
-              { eventKey: '2' },
-              _react2.default.createElement(
-                'span',
-                null,
-                _react2.default.createElement('i', { className: 'fa fa-gear fa-fw' }),
-                ' Settings '
-              )
-            ),
             _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
             _react2.default.createElement(
               _reactBootstrap.MenuItem,
@@ -2174,7 +2161,7 @@ module.exports =
                 null,
                 ' ',
                 _react2.default.createElement('i', { className: 'fa fa-sign-out fa-fw' }),
-                ' Logout '
+                ' Odjavite se '
               )
             )
           )
@@ -2433,6 +2420,18 @@ module.exports =
                   _react2.default.createElement('i', { className: 'fa fa-dashboard fa-fw' }),
                   ' \xA0Kursevi'
                 )
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: '', onClick: function onClick(e) {
+                      e.preventDefault();_history2.default.push('/pomoc1');
+                    } },
+                  _react2.default.createElement('i', { className: 'fa fa-dashboard fa-fw' }),
+                  ' \xA0Pomo\u0107'
+                )
               )
             )
           )
@@ -2603,6 +2602,18 @@ module.exports =
                     )
                   )
                 )
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: '', onClick: function onClick(e) {
+                      e.preventDefault();_history2.default.push('/pomoc2');
+                    } },
+                  _react2.default.createElement('i', { className: 'fa fa-dashboard fa-fw' }),
+                  ' \xA0Pomo\u0107'
+                )
               )
             )
           )
@@ -2751,6 +2762,18 @@ module.exports =
                     }
                   },
                   ' Dodaj novu lekciju za kurs'
+                )
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: '', onClick: function onClick(e) {
+                      e.preventDefault();_history2.default.push('/pomoc3');
+                    } },
+                  _react2.default.createElement('i', { className: 'fa fa-dashboard fa-fw' }),
+                  ' \xA0Pomo\u0107'
                 )
               )
             )
@@ -2984,7 +3007,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n\n.Home_root_3mf {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home_container_2ac {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home_news_1G- {\n  padding: 0;\n}\n\n.Home_newsItem_3n- {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.Home_newsTitle_Pdo {\n  font-size: 1.125em;\n}\n\n.Home_newsTitle_Pdo,\n.Home_newsDesc_1JF {\n  display: block;\n}\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: var(--max-content-width);\n}\n\n.news {\n  padding: 0;\n}\n\n.newsItem {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle,\n.newsDesc {\n  display: block;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\r\n}\r\n\r\n.Home_root_3mf {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.Home_container_2ac {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 1000px;\r\n}\r\n\r\n.Home_news_1G- {\r\n  padding: 0;\r\n}\r\n\r\n.Home_newsItem_3n- {\r\n  list-style-type: none;\r\n  padding-bottom: 6px;\r\n}\r\n\r\n.Home_newsTitle_Pdo {\r\n  font-size: 1.125em;\r\n}\r\n\r\n.Home_newsTitle_Pdo,\r\n.Home_newsDesc_1JF {\r\n  display: block;\r\n}\r\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB","file":"Home.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n@import '../../components/variables.css';\r\n\r\n.root {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: var(--max-content-width);\r\n}\r\n\r\n.news {\r\n  padding: 0;\r\n}\r\n\r\n.newsItem {\r\n  list-style-type: none;\r\n  padding-bottom: 6px;\r\n}\r\n\r\n.newsTitle {\r\n  font-size: 1.125em;\r\n}\r\n\r\n.newsTitle,\r\n.newsDesc {\r\n  display: block;\r\n}\r\n","/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  --max-content-width: 1000px;\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */\r\n\r\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\r\n  --screen-sm-min: 768px;  /* Small screen / tablet */\r\n  --screen-md-min: 992px;  /* Medium screen / desktop */\r\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -20368,7 +20391,7 @@ module.exports =
         { header: _react2.default.createElement(
             'h3',
             null,
-            'Please Sign In'
+            'Prijavi se na svoj ra\u010Dun'
           ), className: 'login-panel' },
         _react2.default.createElement(
           'form',
@@ -20384,7 +20407,7 @@ module.exports =
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 type: 'text',
                 className: 'form-control',
-                placeholder: 'Username',
+                placeholder: 'Korisnicko ime',
                 name: 'name',
                 id: 'iName'
               })
@@ -20394,7 +20417,7 @@ module.exports =
               { className: 'form-group' },
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 className: 'form-control',
-                placeholder: 'Password',
+                placeholder: '\u0160ifra',
                 type: 'password',
                 name: 'password',
                 id: 'iPassword'
@@ -20491,7 +20514,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n.Login_root_AfB {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Login_container_2g2 {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n.Login_lead_ri6 {\n  font-size: 1.25em;\n}\n.Login_formGroup_3_X {\n  margin-bottom: 15px;\n}\n.Login_label_2Z7 {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n.Login_input_PvY {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n}\n.Login_input_PvY:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n.Login_button_10W {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n.Login_button_10W:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n.Login_button_10W:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n.Login_facebook_3CI {\n  border-color: #3b5998;\n  background: #3b5998;\n}\n.Login_facebook_3CI:hover {\n  background: #2d4373;\n}\n.Login_google_1Ig {\n  border-color: #dd4b39;\n  background: #dd4b39;\n}\n.Login_google_1Ig:hover {\n  background: #c23321;\n}\n.Login_twitter_3Vq {\n  border-color: #55acee;\n  background: #55acee;\n}\n.Login_twitter_3Vq:hover {\n  background: #2795e9;\n}\n.Login_icon_97U {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n.Login_lineThrough_3eY {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n.Login_lineThrough_3eY::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n.Login_lineThrough_3eY::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n", "", {"version":3,"sources":["/./routes/login/Login.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;ACPH;;;;;;;GAOG;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;ADpBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;AAED;EACE,kBAAkB;CACnB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;AAED;EACE,mCAAmC;CACpC;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Login.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n\n.lead {\n  font-size: 1.25em;\n}\n\n.formGroup {\n  margin-bottom: 15px;\n}\n\n.label {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n\n.input {\n  display: block;\n  box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n}\n\n.input:focus {\n  border-color: #0074c2;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.button {\n  display: block;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n\n.button:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n\n.button:focus {\n  border-color: #0074c2;\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.facebook {\n  border-color: #3b5998;\n  background: #3b5998;\n  composes: button;\n}\n\n.facebook:hover {\n  background: #2d4373;\n}\n\n.google {\n  border-color: #dd4b39;\n  background: #dd4b39;\n  composes: button;\n}\n\n.google:hover {\n  background: #c23321;\n}\n\n.twitter {\n  border-color: #55acee;\n  background: #55acee;\n  composes: button;\n}\n\n.twitter:hover {\n  background: #2795e9;\n}\n\n.icon {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n\n.lineThrough {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n\n.lineThrough::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n\n.lineThrough::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\r\n}\r\n.Login_root_AfB {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n.Login_container_2g2 {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n.Login_lead_ri6 {\r\n  font-size: 1.25em;\r\n}\r\n.Login_formGroup_3_X {\r\n  margin-bottom: 15px;\r\n}\r\n.Login_label_2Z7 {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n.Login_input_PvY {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n}\r\n.Login_input_PvY:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n.Login_button_10W {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n.Login_button_10W:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n.Login_button_10W:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n.Login_facebook_3CI {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n}\r\n.Login_facebook_3CI:hover {\r\n  background: #2d4373;\r\n}\r\n.Login_google_1Ig {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n}\r\n.Login_google_1Ig:hover {\r\n  background: #c23321;\r\n}\r\n.Login_twitter_3Vq {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n}\r\n.Login_twitter_3Vq:hover {\r\n  background: #2795e9;\r\n}\r\n.Login_icon_97U {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n.Login_lineThrough_3eY {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n.Login_lineThrough_3eY::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n.Login_lineThrough_3eY::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n", "", {"version":3,"sources":["/./routes/login/Login.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;ACPH;;;;;;;GAOG;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;ADpBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;AAED;EACE,kBAAkB;CACnB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;AAED;EACE,mCAAmC;CACpC;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Login.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n@import '../../components/variables.css';\r\n\r\n.root {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n\r\n.lead {\r\n  font-size: 1.25em;\r\n}\r\n\r\n.formGroup {\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.label {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n\r\n.input {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n}\r\n\r\n.input:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.button {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n\r\n.button:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n\r\n.button:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.facebook {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n  composes: button;\r\n}\r\n\r\n.facebook:hover {\r\n  background: #2d4373;\r\n}\r\n\r\n.google {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n  composes: button;\r\n}\r\n\r\n.google:hover {\r\n  background: #c23321;\r\n}\r\n\r\n.twitter {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n  composes: button;\r\n}\r\n\r\n.twitter:hover {\r\n  background: #2795e9;\r\n}\r\n\r\n.icon {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n\r\n.lineThrough {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n\r\n.lineThrough::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n\r\n.lineThrough::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n","/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  --max-content-width: 1000px;\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */\r\n\r\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\r\n  --screen-sm-min: 768px;  /* Small screen / tablet */\r\n  --screen-md-min: 992px;  /* Medium screen / desktop */\r\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -20653,7 +20676,7 @@ module.exports =
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 type: 'text',
                 className: 'form-control',
-                placeholder: 'Username',
+                placeholder: 'Korisni\u010Dko ime',
                 name: 'name',
                 id: 'iUsername'
               })
@@ -20674,7 +20697,7 @@ module.exports =
               { className: 'form-group' },
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 className: 'form-control',
-                placeholder: 'Password',
+                placeholder: '\u0160ifra',
                 type: 'password',
                 name: 'password',
                 id: 'iPassword'
@@ -20685,7 +20708,7 @@ module.exports =
               { className: 'form-group' },
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 className: 'form-control',
-                placeholder: 'Confirm Password',
+                placeholder: 'Potvrdi \u0160ifru',
                 type: 'password',
                 name: 'password',
                 id: 'iPasswordConfirm'
@@ -20705,6 +20728,11 @@ module.exports =
             _react2.default.createElement(
               'div',
               { className: 'form-group' },
+              _react2.default.createElement(
+                'label',
+                null,
+                ' Datum ro\u0111enja'
+              ),
               _react2.default.createElement(_reactBootstrap.FormControl, {
                 type: 'date',
                 className: 'form-control',
@@ -20760,7 +20788,7 @@ module.exports =
             _react2.default.createElement(
               _Button2.default,
               { type: 'submit', bsSize: 'large', bsStyle: 'success', block: true },
-              'Register'
+              'Kreiraj korisni\u010Dki ra\u010Dun!'
             )
           )
         )
@@ -20823,7 +20851,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n.Register_root_3RB {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.Register_container_1Lf {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n.Register_lead_2sJ {\n  font-size: 1.25em;\n}\n.Register_formGroup_1Ge {\n  margin-bottom: 15px;\n}\n.Register_label_sr8 {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n.Register_input_3So {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n}\n.Register_input_3So:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n.Register_button_3Si {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n.Register_button_3Si:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n.Register_button_3Si:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n.Register_facebook_3Fl {\n  border-color: #3b5998;\n  background: #3b5998;\n}\n.Register_facebook_3Fl:hover {\n  background: #2d4373;\n}\n.Register_google_3QP {\n  border-color: #dd4b39;\n  background: #dd4b39;\n}\n.Register_google_3QP:hover {\n  background: #c23321;\n}\n.Register_twitter_uxx {\n  border-color: #55acee;\n  background: #55acee;\n}\n.Register_twitter_uxx:hover {\n  background: #2795e9;\n}\n.Register_icon_3KC {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n.Register_lineThrough_2IJ {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n.Register_lineThrough_2IJ::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n.Register_lineThrough_2IJ::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n", "", {"version":3,"sources":["/./routes/register/Register.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;ACPH;;;;;;;GAOG;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;ADpBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;AAED;EACE,kBAAkB;CACnB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;AAED;EACE,mCAAmC;CACpC;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Register.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n\n.lead {\n  font-size: 1.25em;\n}\n\n.formGroup {\n  margin-bottom: 15px;\n}\n\n.label {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n\n.input {\n  display: block;\n  box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n}\n\n.input:focus {\n  border-color: #0074c2;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.button {\n  display: block;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n\n.button:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n\n.button:focus {\n  border-color: #0074c2;\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.facebook {\n  border-color: #3b5998;\n  background: #3b5998;\n  composes: button;\n}\n\n.facebook:hover {\n  background: #2d4373;\n}\n\n.google {\n  border-color: #dd4b39;\n  background: #dd4b39;\n  composes: button;\n}\n\n.google:hover {\n  background: #c23321;\n}\n\n.twitter {\n  border-color: #55acee;\n  background: #55acee;\n  composes: button;\n}\n\n.twitter:hover {\n  background: #2795e9;\n}\n\n.icon {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n\n.lineThrough {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n\n.lineThrough::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n\n.lineThrough::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\r\n}\r\n.Register_root_3RB {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n.Register_container_1Lf {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n.Register_lead_2sJ {\r\n  font-size: 1.25em;\r\n}\r\n.Register_formGroup_1Ge {\r\n  margin-bottom: 15px;\r\n}\r\n.Register_label_sr8 {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n.Register_input_3So {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n}\r\n.Register_input_3So:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n.Register_button_3Si {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n.Register_button_3Si:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n.Register_button_3Si:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n.Register_facebook_3Fl {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n}\r\n.Register_facebook_3Fl:hover {\r\n  background: #2d4373;\r\n}\r\n.Register_google_3QP {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n}\r\n.Register_google_3QP:hover {\r\n  background: #c23321;\r\n}\r\n.Register_twitter_uxx {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n}\r\n.Register_twitter_uxx:hover {\r\n  background: #2795e9;\r\n}\r\n.Register_icon_3KC {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n.Register_lineThrough_2IJ {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n.Register_lineThrough_2IJ::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n.Register_lineThrough_2IJ::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n", "", {"version":3,"sources":["/./routes/register/Register.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;ACPH;;;;;;;GAOG;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;ADpBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;AAED;EACE,kBAAkB;CACnB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;AAED;EACE,mCAAmC;CACpC;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;AAED;EACE,oBAAoB;CACrB;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Register.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n@import '../../components/variables.css';\r\n\r\n.root {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n\r\n.lead {\r\n  font-size: 1.25em;\r\n}\r\n\r\n.formGroup {\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.label {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n\r\n.input {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n}\r\n\r\n.input:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.button {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n\r\n.button:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n\r\n.button:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.facebook {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n  composes: button;\r\n}\r\n\r\n.facebook:hover {\r\n  background: #2d4373;\r\n}\r\n\r\n.google {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n  composes: button;\r\n}\r\n\r\n.google:hover {\r\n  background: #c23321;\r\n}\r\n\r\n.twitter {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n  composes: button;\r\n}\r\n\r\n.twitter:hover {\r\n  background: #2795e9;\r\n}\r\n\r\n.icon {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n\r\n.lineThrough {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n\r\n.lineThrough::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n\r\n.lineThrough::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n","/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  --max-content-width: 1000px;\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */\r\n\r\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\r\n  --screen-sm-min: 768px;  /* Small screen / tablet */\r\n  --screen-md-min: 992px;  /* Medium screen / desktop */\r\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -21390,7 +21418,7 @@ module.exports =
               _Button2.default,
               {
                 bsStyle: 'link',
-                className: 'btn-social { btn-bitbucket }', block: true
+                className: 'btn-social {\r btn-bitbucket\r }', block: true
               },
               _react2.default.createElement('i', { className: 'fa fa-bitbucket' }),
               ' Sign in with Bitbucket'
@@ -22204,7 +22232,7 @@ module.exports =
             _react2.default.createElement(
               _reactBootstrap.PageHeader,
               null,
-              'Dodaj u\u010Ditelja'
+              'Dodaj predavaca'
             )
           )
         ),
@@ -22219,7 +22247,7 @@ module.exports =
               { header: _react2.default.createElement(
                   'span',
                   null,
-                  'Unesite novog ucitelja'
+                  'Unesite novog predavaca'
                 ) },
               _react2.default.createElement(
                 'div',
@@ -22241,7 +22269,7 @@ module.exports =
                         _react2.default.createElement(_reactBootstrap.FormControl, {
                           type: 'text',
                           className: 'form-control',
-                          placeholder: 'Username',
+                          placeholder: 'Korisni\u010Dko ime',
                           name: 'name',
                           id: 'iUsername'
                         })
@@ -22262,7 +22290,7 @@ module.exports =
                         { className: 'form-group' },
                         _react2.default.createElement(_reactBootstrap.FormControl, {
                           className: 'form-control',
-                          placeholder: 'Password',
+                          placeholder: '\u0160ifra',
                           type: 'password',
                           name: 'password',
                           id: 'iPassword'
@@ -22273,7 +22301,7 @@ module.exports =
                         { className: 'form-group' },
                         _react2.default.createElement(_reactBootstrap.FormControl, {
                           className: 'form-control',
-                          placeholder: 'Confirm Password',
+                          placeholder: 'Potvrdi \u0161ifru',
                           type: 'password',
                           name: 'password',
                           id: 'iPasswordConfirm'
@@ -22337,7 +22365,7 @@ module.exports =
                       _react2.default.createElement(
                         _reactBootstrap.Button,
                         { type: 'submit', bsSize: 'large', bsStyle: 'success', block: true },
-                        'Registruj profesora'
+                        'Registruj predavaca'
                       )
                     )
                   )
@@ -22509,7 +22537,7 @@ module.exports =
                       _react2.default.createElement(_reactBootstrap.FormControl, {
                         type: 'text',
                         className: 'form-control',
-                        placeholder: 'Username',
+                        placeholder: 'Korisni\u010Dko ime',
                         name: 'name',
                         id: 'iUsername'
                       })
@@ -22519,7 +22547,7 @@ module.exports =
                       { className: 'form-group' },
                       _react2.default.createElement(_reactBootstrap.FormControl, {
                         className: 'form-control',
-                        placeholder: 'Password',
+                        placeholder: '\u0160ifra',
                         type: 'password',
                         name: 'password',
                         id: 'iPassword'
@@ -22530,7 +22558,7 @@ module.exports =
                       { className: 'form-group' },
                       _react2.default.createElement(_reactBootstrap.FormControl, {
                         className: 'form-control',
-                        placeholder: 'Confirm Password',
+                        placeholder: 'Potvrdi \u0161ifru',
                         type: 'password',
                         name: 'password',
                         id: 'iPasswordConfirm'
@@ -22569,7 +22597,691 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _SviKorisnici = __webpack_require__(187);
+  var _kursevi = __webpack_require__(187);
+  
+  var _kursevi2 = _interopRequireDefault(_kursevi);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  exports.default = {
+  
+    path: '/kursevi',
+  
+    action: function action() {
+      return _react2.default.createElement(_kursevi2.default, null);
+    }
+  };
+
+/***/ }),
+/* 187 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _getPrototypeOf = __webpack_require__(40);
+  
+  var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+  
+  var _classCallCheck2 = __webpack_require__(41);
+  
+  var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+  
+  var _createClass2 = __webpack_require__(42);
+  
+  var _createClass3 = _interopRequireDefault(_createClass2);
+  
+  var _possibleConstructorReturn2 = __webpack_require__(43);
+  
+  var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+  
+  var _inherits2 = __webpack_require__(44);
+  
+  var _inherits3 = _interopRequireDefault(_inherits2);
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reactBootstrap = __webpack_require__(49);
+  
+  var _FormControlFeedback = __webpack_require__(179);
+  
+  var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+  
+  var _FormControlStatic = __webpack_require__(180);
+  
+  var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
+  
+  var _InputGroupAddon = __webpack_require__(181);
+  
+  var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+  
+  var _axios = __webpack_require__(61);
+  
+  var _axios2 = _interopRequireDefault(_axios);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  var title = 'Kursevi';
+  
+  function submitHandler(e) {
+    e.preventDefault();
+    //history.push('/');
+  
+    var nazivKursa = document.getElementById("iNaziv").value;
+    var stepenKursa = document.getElementById("iStepenKursa").value;
+    //console.log(nazivKursa + " -- " + stepenKursa);
+  
+    _axios2.default.post('http://localhost:8080//dodajKurs', {
+      naziv: nazivKursa,
+      stepen: stepenKursa
+    }).then(function (response) {
+      console.log("Register response", response.data.isSuccess);
+      alert("Uspjesno dodan novi kurs!");
+    }).catch(function (error) {
+      console.error("Register error", error);
+      alert("Došlo je do greške prilikom registrovanja.");
+    });
+  }
+  
+  function brisanjeKursa(idKursa) {
+    alert("Trenutno nije moguce obrisati kurs. Backend tim nije napravio kontroler za to a meni je sad mrsko to radti!");
+  }
+  
+  var UnosKursa = function (_React$Component) {
+    (0, _inherits3.default)(UnosKursa, _React$Component);
+  
+    function UnosKursa() {
+      (0, _classCallCheck3.default)(this, UnosKursa);
+      return (0, _possibleConstructorReturn3.default)(this, (UnosKursa.__proto__ || (0, _getPrototypeOf2.default)(UnosKursa)).apply(this, arguments));
+    }
+  
+    (0, _createClass3.default)(UnosKursa, [{
+      key: 'render',
+      value: function render() {
+        return _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'row' },
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12' },
+              _react2.default.createElement(
+                _reactBootstrap.PageHeader,
+                null,
+                'Dodaj kurs'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'row' },
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12' },
+              _react2.default.createElement(
+                _reactBootstrap.Panel,
+                { header: _react2.default.createElement(
+                    'span',
+                    null,
+                    'Unesite novi kurs'
+                  ) },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'row' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'col-lg-6' },
+                    _react2.default.createElement(
+                      _reactBootstrap.Form,
+                      { role: 'form', onSubmit: function onSubmit(e) {
+                          submitHandler(e);
+                        } },
+                      _react2.default.createElement(
+                        'fieldset',
+                        null,
+                        _react2.default.createElement(
+                          'div',
+                          { className: 'form-group' },
+                          _react2.default.createElement(
+                            'label',
+                            { 'for': 'sel1' },
+                            'Odaberite stepen kursa'
+                          ),
+                          _react2.default.createElement(
+                            'select',
+                            { className: 'form-control', id: 'iNaziv' },
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'Engleski'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'Njemacki'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'Spanski'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'Turski'
+                            )
+                          )
+                        ),
+                        _react2.default.createElement(
+                          'div',
+                          { className: 'form-group' },
+                          _react2.default.createElement(
+                            'label',
+                            { 'for': 'sel1' },
+                            'Odaberite stepen kursa'
+                          ),
+                          _react2.default.createElement(
+                            'select',
+                            { className: 'form-control', id: 'iStepenKursa' },
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'A1'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'A2'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'B1'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'B2'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'C1'
+                            ),
+                            _react2.default.createElement(
+                              'option',
+                              null,
+                              'C2'
+                            )
+                          )
+                        ),
+                        _react2.default.createElement(
+                          _reactBootstrap.Button,
+                          { type: 'submit', bsSize: 'large', bsStyle: 'success', block: true },
+                          'Dodajte novi kurs'
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        );
+      }
+    }]);
+    return UnosKursa;
+  }(_react2.default.Component);
+  
+  var IspisSvihKurseva = _react2.default.createClass({
+    displayName: 'IspisSvihKurseva',
+  
+  
+    getInitialState: function getInitialState() {
+      return {
+        users: []
+      };
+    },
+  
+    componentDidMount: function componentDidMount() {
+      var _this = this;
+      _axios2.default.get("http://localhost:8080/kursevi").then(function (result) {
+        _this.setState({
+          users: result.data
+        });
+      });
+    },
+  
+    render: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            _reactBootstrap.PageHeader,
+            null,
+            'Svi kursevi'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-6' },
+          _react2.default.createElement(
+            _reactBootstrap.Panel,
+            { header: _react2.default.createElement(
+                'span',
+                null,
+                'Kursevi'
+              ) },
+            _react2.default.createElement(
+              'div',
+              { className: 'table-responsive' },
+              _react2.default.createElement(
+                'table',
+                { className: 'table table-striped table-bordered table-hover' },
+                _react2.default.createElement(
+                  'thead',
+                  null,
+                  _react2.default.createElement(
+                    'tr',
+                    null,
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Jezik'
+                    ),
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Stepen '
+                    ),
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Izbrisi kurs'
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'tbody',
+                  null,
+                  this.state.users.map(function (user) {
+                    return _react2.default.createElement(
+                      'tr',
+                      { key: user.id },
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        user.naziv
+                      ),
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        user.stepen
+                      ),
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        _react2.default.createElement(
+                          'button',
+                          { type: 'button', onClick: function onClick(event) {
+                              brisanjeKursa(user.id);
+                            } },
+                          'Izbrisi'
+                        )
+                      )
+                    );
+                  })
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  });
+  
+  function displayForms(props, context) {
+    context.setTitle(title);
+    return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(UnosKursa, null),
+      _react2.default.createElement(IspisSvihKurseva, null)
+    );
+  }
+  
+  displayForms.contextTypes = { setTitle: _react.PropTypes.func.isRequired };
+  
+  exports.default = displayForms;
+
+/***/ }),
+/* 188 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _pomoc = __webpack_require__(189);
+  
+  var _pomoc2 = _interopRequireDefault(_pomoc);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  exports.default = {
+  
+    path: '/pomoc1',
+  
+    action: function action() {
+      return _react2.default.createElement(_pomoc2.default, null);
+    }
+  };
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reactBootstrap = __webpack_require__(49);
+  
+  var _FormControlFeedback = __webpack_require__(179);
+  
+  var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+  
+  var _FormControlStatic = __webpack_require__(180);
+  
+  var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
+  
+  var _InputGroupAddon = __webpack_require__(181);
+  
+  var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+  
+  var _axios = __webpack_require__(61);
+  
+  var _axios2 = _interopRequireDefault(_axios);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  var title = 'Pomoc1';
+  
+  function displayForms(props, context) {
+    context.setTitle(title);
+    return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            _reactBootstrap.PageHeader,
+            null,
+            'POMOC Administratoru DA SE KORISTI STRANICOM:'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            'h',
+            null,
+            '  Lorem ipsum dolor sit amet, his sumo probo maiorum te. Ei vel nulla laudem aperiam, meis oportere voluptatum an pri.  '
+          )
+        )
+      )
+    );
+  }
+  
+  exports.default = displayForms;
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _pomoc = __webpack_require__(191);
+  
+  var _pomoc2 = _interopRequireDefault(_pomoc);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  exports.default = {
+  
+    path: '/pomoc2',
+  
+    action: function action() {
+      return _react2.default.createElement(_pomoc2.default, null);
+    }
+  };
+
+/***/ }),
+/* 191 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reactBootstrap = __webpack_require__(49);
+  
+  var _FormControlFeedback = __webpack_require__(179);
+  
+  var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+  
+  var _FormControlStatic = __webpack_require__(180);
+  
+  var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
+  
+  var _InputGroupAddon = __webpack_require__(181);
+  
+  var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+  
+  var _axios = __webpack_require__(61);
+  
+  var _axios2 = _interopRequireDefault(_axios);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  var title = 'Pomoc2';
+  
+  function displayForms(props, context) {
+    context.setTitle(title);
+    return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            _reactBootstrap.PageHeader,
+            null,
+            'POMOC Administratoru DA SE KORISTI STRANICOM:'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            'h',
+            null,
+            '  Lorem ipsum dolor sit amet, his sumo probo maiorum te. Ei vel nulla laudem aperiam, meis oportere voluptatum an pri.  '
+          )
+        )
+      )
+    );
+  }
+  
+  exports.default = displayForms;
+
+/***/ }),
+/* 192 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _pomoc = __webpack_require__(193);
+  
+  var _pomoc2 = _interopRequireDefault(_pomoc);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  exports.default = {
+  
+    path: '/pomoc3',
+  
+    action: function action() {
+      return _react2.default.createElement(_pomoc2.default, null);
+    }
+  };
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _reactBootstrap = __webpack_require__(49);
+  
+  var _FormControlFeedback = __webpack_require__(179);
+  
+  var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+  
+  var _FormControlStatic = __webpack_require__(180);
+  
+  var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
+  
+  var _InputGroupAddon = __webpack_require__(181);
+  
+  var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+  
+  var _axios = __webpack_require__(61);
+  
+  var _axios2 = _interopRequireDefault(_axios);
+  
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  
+  var title = 'Pomoc3';
+  
+  function displayForms(props, context) {
+    context.setTitle(title);
+    return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            _reactBootstrap.PageHeader,
+            null,
+            'POMOC Predavacu DA SE KORISTI STRANICOM:'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            'h',
+            null,
+            '  Lorem ipsum dolor sit amet, his sumo probo maiorum te. Ei vel nulla laudem aperiam, meis oportere voluptatum an pri.  Lorem ipsum dolor sit amet, his sumo probo maiorum te. Ei vel nulla laudem aperiam, meis oportere voluptatum an pri. '
+          )
+        )
+      )
+    );
+  }
+  
+  exports.default = displayForms;
+
+/***/ }),
+/* 194 */
+/***/ (function(module, exports, __webpack_require__) {
+
+  'use strict';
+  
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  
+  var _react = __webpack_require__(12);
+  
+  var _react2 = _interopRequireDefault(_react);
+  
+  var _SviKorisnici = __webpack_require__(195);
   
   var _SviKorisnici2 = _interopRequireDefault(_SviKorisnici);
   
@@ -22585,7 +23297,7 @@ module.exports =
   };
 
 /***/ }),
-/* 187 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -22759,7 +23471,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 188 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -22772,7 +23484,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _SviKorisnici = __webpack_require__(189);
+  var _SviKorisnici = __webpack_require__(197);
   
   var _SviKorisnici2 = _interopRequireDefault(_SviKorisnici);
   
@@ -22788,7 +23500,7 @@ module.exports =
   };
 
 /***/ }),
-/* 189 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -22960,7 +23672,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 190 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -22973,7 +23685,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _SviKorisnici = __webpack_require__(191);
+  var _SviKorisnici = __webpack_require__(199);
   
   var _SviKorisnici2 = _interopRequireDefault(_SviKorisnici);
   
@@ -22989,7 +23701,7 @@ module.exports =
   };
 
 /***/ }),
-/* 191 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23086,7 +23798,7 @@ module.exports =
             { header: _react2.default.createElement(
                 'span',
                 null,
-                'Predavaci'
+                'Administratori'
               ) },
             _react2.default.createElement(
               'div',
@@ -23103,12 +23815,7 @@ module.exports =
                     _react2.default.createElement(
                       'th',
                       null,
-                      'Ime'
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Prezime '
+                      'Korisni\u010Dko ime'
                     ),
                     _react2.default.createElement(
                       'th',
@@ -23128,11 +23835,6 @@ module.exports =
                         'td',
                         null,
                         user.korisnickoIme
-                      ),
-                      _react2.default.createElement(
-                        'td',
-                        null,
-                        user.sifra
                       ),
                       _react2.default.createElement(
                         'td',
@@ -23161,7 +23863,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 192 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23174,7 +23876,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _DashboardUcitelj = __webpack_require__(193);
+  var _DashboardUcitelj = __webpack_require__(201);
   
   var _DashboardUcitelj2 = _interopRequireDefault(_DashboardUcitelj);
   
@@ -23190,7 +23892,7 @@ module.exports =
   };
 
 /***/ }),
-/* 193 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23249,7 +23951,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 194 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23262,7 +23964,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _KursStranica = __webpack_require__(195);
+  var _KursStranica = __webpack_require__(203);
   
   var _KursStranica2 = _interopRequireDefault(_KursStranica);
   
@@ -23277,7 +23979,7 @@ module.exports =
   };
 
 /***/ }),
-/* 195 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23321,7 +24023,7 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 196 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23334,7 +24036,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _DodavanjeLekcijeForma = __webpack_require__(197);
+  var _DodavanjeLekcijeForma = __webpack_require__(205);
   
   var _DodavanjeLekcijeForma2 = _interopRequireDefault(_DodavanjeLekcijeForma);
   
@@ -23350,7 +24052,7 @@ module.exports =
   };
 
 /***/ }),
-/* 197 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23421,7 +24123,7 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.PageHeader,
             null,
-            'Dodaj u\u010Ditelja'
+            'Dodaj novu lekciju'
           )
         )
       ),
@@ -23436,7 +24138,7 @@ module.exports =
             { header: _react2.default.createElement(
                 'span',
                 null,
-                'Unesite novog ucitelja'
+                'Unesite novu lekciju'
               ) },
             _react2.default.createElement(
               'div',
@@ -23484,11 +24186,6 @@ module.exports =
                       _reactBootstrap.Button,
                       { type: 'submit' },
                       'Dodaj lekciju'
-                    ),
-                    _react2.default.createElement(
-                      _reactBootstrap.Button,
-                      { type: 'reset' },
-                      'Resetuj: '
                     )
                   )
                 )
@@ -23505,7 +24202,7 @@ module.exports =
   exports.default = displayForms;
 
 /***/ }),
-/* 198 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23518,7 +24215,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _DodavanjeTestaForma = __webpack_require__(199);
+  var _DodavanjeTestaForma = __webpack_require__(207);
   
   var _DodavanjeTestaForma2 = _interopRequireDefault(_DodavanjeTestaForma);
   
@@ -23534,7 +24231,7 @@ module.exports =
   };
 
 /***/ }),
-/* 199 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23579,7 +24276,7 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.PageHeader,
             null,
-            'Dodaj u\u010Ditelja'
+            'Dodaj novi test'
           )
         )
       ),
@@ -23594,7 +24291,7 @@ module.exports =
             { header: _react2.default.createElement(
                 'span',
                 null,
-                'Unesite novog ucitelja'
+                'Unesite novi test'
               ) },
             _react2.default.createElement(
               'div',
@@ -23611,7 +24308,7 @@ module.exports =
                     _react2.default.createElement(
                       _reactBootstrap.ControlLabel,
                       null,
-                      'Naziv lekcije'
+                      'Naziv testa'
                     ),
                     _react2.default.createElement(_reactBootstrap.FormControl, {
                       type: 'text',
@@ -23628,7 +24325,7 @@ module.exports =
                     _react2.default.createElement(
                       _reactBootstrap.ControlLabel,
                       null,
-                      'Uploaduj lekciju'
+                      'Uploaduj test'
                     ),
                     _react2.default.createElement(_reactBootstrap.FormControl, {
                       type: 'file'
@@ -23641,13 +24338,7 @@ module.exports =
                     _react2.default.createElement(
                       _reactBootstrap.Button,
                       { type: 'submit' },
-                      'Dodaj lekciju'
-                    ),
-                    '  ',
-                    _react2.default.createElement(
-                      _reactBootstrap.Button,
-                      { type: 'reset' },
-                      'Resetuj: '
+                      'Dodaj test'
                     )
                   )
                 )
@@ -23664,7 +24355,7 @@ module.exports =
   exports.default = displayForms;
 
 /***/ }),
-/* 200 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23677,7 +24368,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _DodavanjeTerminaForma = __webpack_require__(201);
+  var _DodavanjeTerminaForma = __webpack_require__(209);
   
   var _DodavanjeTerminaForma2 = _interopRequireDefault(_DodavanjeTerminaForma);
   
@@ -23693,7 +24384,7 @@ module.exports =
   };
 
 /***/ }),
-/* 201 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23830,7 +24521,7 @@ module.exports =
                     _react2.default.createElement(
                       _reactBootstrap.Button,
                       { type: 'submit', bsSize: 'large', bsStyle: 'success', block: true },
-                      'Register'
+                      'Dodaj termin'
                     )
                   )
                 )
@@ -23847,7 +24538,7 @@ module.exports =
   exports.default = displayForms;
 
 /***/ }),
-/* 202 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23860,7 +24551,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _SviKursevi = __webpack_require__(203);
+  var _SviKursevi = __webpack_require__(211);
   
   var _SviKursevi2 = _interopRequireDefault(_SviKursevi);
   
@@ -23876,7 +24567,7 @@ module.exports =
   };
 
 /***/ }),
-/* 203 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -23909,212 +24600,134 @@ module.exports =
   
   var _Well2 = _interopRequireDefault(_Well);
   
+  var _axios = __webpack_require__(61);
+  
+  var _axios2 = _interopRequireDefault(_axios);
+  
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
   var title = 'Table';
+  
+  function prijavljivanjeNaKurs(studentId) {
+    alert("Ova funkcionalnost jos nije dodana");
+  }
+  
+  var IspisSvihKurseva = _react2.default.createClass({
+    displayName: 'IspisSvihKurseva',
+  
+  
+    getInitialState: function getInitialState() {
+      return {
+        users: []
+      };
+    },
+  
+    componentDidMount: function componentDidMount() {
+      var _this = this;
+      _axios2.default.get("http://localhost:8080/kursevi").then(function (result) {
+        _this.setState({
+          users: result.data
+        });
+      });
+    },
+  
+    render: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-12' },
+          _react2.default.createElement(
+            _PageHeader2.default,
+            null,
+            'Svi kursevi'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-6' },
+          _react2.default.createElement(
+            _Panel2.default,
+            { header: _react2.default.createElement(
+                'span',
+                null,
+                'Kursevi'
+              ) },
+            _react2.default.createElement(
+              'div',
+              { className: 'table-responsive' },
+              _react2.default.createElement(
+                'table',
+                { className: 'table table-striped table-bordered table-hover' },
+                _react2.default.createElement(
+                  'thead',
+                  null,
+                  _react2.default.createElement(
+                    'tr',
+                    null,
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Jezik'
+                    ),
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Stepen '
+                    ),
+                    _react2.default.createElement(
+                      'th',
+                      null,
+                      'Izbrisi kurs'
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'tbody',
+                  null,
+                  this.state.users.map(function (user) {
+                    return _react2.default.createElement(
+                      'tr',
+                      { key: user.id },
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        user.naziv
+                      ),
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        user.stepen
+                      ),
+                      _react2.default.createElement(
+                        'td',
+                        null,
+                        _react2.default.createElement(
+                          'button',
+                          { type: 'button', onClick: function onClick(event) {
+                              prijavljivanjeNaKurs(user.id);
+                            } },
+                          'Prijavi se na ovaj kurs'
+                        )
+                      )
+                    );
+                  })
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  });
   
   function displayTable(props, context) {
     context.setTitle(title);
     return _react2.default.createElement(
       'div',
       null,
-      _react2.default.createElement(
-        'div',
-        { className: 'col-lg-12' },
-        _react2.default.createElement(
-          _PageHeader2.default,
-          null,
-          'Svi korisnici'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'col-lg-6' },
-        _react2.default.createElement(
-          _Panel2.default,
-          { header: _react2.default.createElement(
-              'span',
-              null,
-              'U\u010Denici '
-            ) },
-          _react2.default.createElement(
-            'div',
-            { className: 'table-responsive' },
-            _react2.default.createElement(
-              'table',
-              { className: 'table table-striped table-bordered table-hover' },
-              _react2.default.createElement(
-                'thead',
-                null,
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'Naziv kursa'
-                  ),
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'Ko predaje '
-                  ),
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'idi na stranicu kursa'
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'tbody',
-                null,
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Ajla'
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Sukrija '
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    _react2.default.createElement(
-                      'button',
-                      { type: 'button' },
-                      'Izbrisi'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Ajlica '
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    ' Sukrijcia'
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    _react2.default.createElement(
-                      'button',
-                      { type: 'button', onClick: function onClick(event) {
-                          history.push('/kursstranica');
-                        } },
-                      'Izbrisi'
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'col-lg-6' },
-        _react2.default.createElement(
-          _Panel2.default,
-          { header: _react2.default.createElement(
-              'span',
-              null,
-              'Profesori: '
-            ) },
-          _react2.default.createElement(
-            'div',
-            { className: 'table-responsive' },
-            _react2.default.createElement(
-              'table',
-              { className: 'table table-striped table-bordered table-hover' },
-              _react2.default.createElement(
-                'thead',
-                null,
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'Ime'
-                  ),
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'Prezime '
-                  ),
-                  _react2.default.createElement(
-                    'th',
-                    null,
-                    'Izbrisi korisnika'
-                  )
-                )
-              ),
-              _react2.default.createElement(
-                'tbody',
-                null,
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Ajla'
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Sukrija '
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    _react2.default.createElement(
-                      'button',
-                      { type: 'button' },
-                      'Izbrisi'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'tr',
-                  null,
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    'Ajlica '
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    ' Sukrijcia'
-                  ),
-                  _react2.default.createElement(
-                    'td',
-                    null,
-                    _react2.default.createElement(
-                      'button',
-                      { type: 'button' },
-                      'Izbrisi'
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      )
+      _react2.default.createElement(IspisSvihKurseva, null)
     );
   }
   
@@ -24123,7 +24736,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 204 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -24136,7 +24749,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _ZavrseniKursevi = __webpack_require__(205);
+  var _ZavrseniKursevi = __webpack_require__(213);
   
   var _ZavrseniKursevi2 = _interopRequireDefault(_ZavrseniKursevi);
   
@@ -24152,7 +24765,7 @@ module.exports =
   };
 
 /***/ }),
-/* 205 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -24197,11 +24810,7 @@ module.exports =
       _react2.default.createElement(
         'div',
         { className: 'col-lg-12' },
-        _react2.default.createElement(
-          _PageHeader2.default,
-          null,
-          'Tables'
-        )
+        _react2.default.createElement(_PageHeader2.default, null)
       ),
       _react2.default.createElement(
         'div',
@@ -24269,7 +24878,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 206 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -24282,7 +24891,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _MojiKursevi = __webpack_require__(207);
+  var _MojiKursevi = __webpack_require__(215);
   
   var _MojiKursevi2 = _interopRequireDefault(_MojiKursevi);
   
@@ -24298,7 +24907,7 @@ module.exports =
   };
 
 /***/ }),
-/* 207 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -24346,7 +24955,7 @@ module.exports =
         _react2.default.createElement(
           _PageHeader2.default,
           null,
-          'Tables'
+          'Kursevi'
         )
       ),
       _react2.default.createElement(
@@ -24469,7 +25078,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 208 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -24482,924 +25091,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Grid = __webpack_require__(209);
-  
-  var _Grid2 = _interopRequireDefault(_Grid);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = {
-  
-    path: '/grid',
-  
-    action: function action() {
-      return _react2.default.createElement(_Grid2.default, null);
-    }
-  };
-
-/***/ }),
-/* 209 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(12);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _Panel = __webpack_require__(160);
-  
-  var _Panel2 = _interopRequireDefault(_Panel);
-  
-  var _PageHeader = __webpack_require__(171);
-  
-  var _PageHeader2 = _interopRequireDefault(_PageHeader);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  var title = 'Grid';
-  
-  function displayGrid(props, context) {
-    context.setTitle(title);
-    return _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _PageHeader2.default,
-            null,
-            'Grid'
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Grid options'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'table-responsive' },
-              _react2.default.createElement(
-                'table',
-                { className: 'table table-bordered table-striped' },
-                _react2.default.createElement(
-                  'thead',
-                  null,
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement('th', null),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Extra small devices',
-                      _react2.default.createElement(
-                        'small',
-                        null,
-                        'Phones (<768px)'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Small devices',
-                      _react2.default.createElement(
-                        'small',
-                        null,
-                        'Tablets (\u2265768px)'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Medium devices',
-                      _react2.default.createElement(
-                        'small',
-                        null,
-                        'Desktops (\u2265992px)'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Large devices',
-                      _react2.default.createElement(
-                        'small',
-                        null,
-                        'Desktops (\u22651200px)'
-                      )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'tbody',
-                  null,
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Grid behavior'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      'Horizontal at all times'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '3' },
-                      'Collapsed to start, horizontal above breakpoints'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Max container width'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      'None (auto)'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '750px'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '970px'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '1170px'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Class prefix'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      _react2.default.createElement(
-                        'code',
-                        null,
-                        '.col-xs-'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      _react2.default.createElement(
-                        'code',
-                        null,
-                        '.col-sm-'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      _react2.default.createElement(
-                        'code',
-                        null,
-                        '.col-md-'
-                      )
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      _react2.default.createElement(
-                        'code',
-                        null,
-                        '.col-lg-'
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      '# of columns'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '4' },
-                      '12'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Max column width'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { className: 'text-muted' },
-                      'Auto'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '60px'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '78px'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      null,
-                      '95px'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Gutter width'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '4' },
-                      '30px (15px on each side of a column)'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Nestable'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '4' },
-                      'Yes'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Offsets'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '4' },
-                      'Yes'
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Column ordering'
-                    ),
-                    _react2.default.createElement(
-                      'td',
-                      { colSpan: '4' },
-                      'Yes'
-                    )
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Therefore, applying any',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-'
-              ),
-              ' class to an element will not only affect its styling on medium devices but also on large devices if a',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-lg-'
-              ),
-              ' class is not present.'
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Example: Stacked-to-horizontal'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Using a single set of',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-*'
-              ),
-              ' grid classes, you can create a default grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.row'
-              ),
-              '.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-1' },
-                '.col-md-1'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-8' },
-                '.col-md-8'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4' },
-                '.col-md-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4' },
-                '.col-md-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4' },
-                '.col-md-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4' },
-                '.col-md-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-6' },
-                '.col-md-6'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-6' },
-                '.col-md-6'
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Example: Mobile and desktop'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Dont want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-xs-*'
-              ),
-              ' ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-*'
-              ),
-              ' to your columns. See the example below for a better idea of how it all works.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-12 col-md-8' },
-                '.col-xs-12 .col-md-8'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-md-4' },
-                '.col-xs-6 .col-md-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-md-4' },
-                '.col-xs-6 .col-md-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-md-4' },
-                '.col-xs-6 .col-md-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-md-4' },
-                '.col-xs-6 .col-md-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6' },
-                '.col-xs-6'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6' },
-                '.col-xs-6'
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              null,
-              'Example: Mobile, tablet, desktops'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Build on the previous example by creating even more dynamic and powerful layouts with tablet ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-sm-*'
-              ),
-              ' classes.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-12 col-sm-6 col-md-8' },
-                '.col-xs-12 .col-sm-6 .col-md-8'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-md-4' },
-                '.col-xs-6 .col-md-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-4' },
-                '.col-xs-6 .col-sm-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-4' },
-                '.col-xs-6 .col-sm-4'
-              ),
-              _react2.default.createElement('div', { className: 'clearfix visible-xs' }),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-4' },
-                '.col-xs-6 .col-sm-4'
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              { id: 'grid-responsive-resets' },
-              'Responsive column resets'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'With the four tiers of grids available you\'re bound to run into issues where, at certain breakpoints, your columns don\'t clear quite right as one is taller than the other. To fix that, use a combination of a ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.clearfix'
-              ),
-              ' and our',
-              _react2.default.createElement(
-                'a',
-                { href: '', onClick: function onClick(e) {
-                    e.preventDefault();
-                  } },
-                'responsive utility classes'
-              ),
-              '.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-3' },
-                '.col-xs-6 .col-sm-3',
-                _react2.default.createElement('br', null),
-                'Resize your viewport or check it out on your phone for an example.'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-3' },
-                '.col-xs-6 .col-sm-3'
-              ),
-              _react2.default.createElement('div', { className: 'clearfix visible-xs' }),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-3' },
-                '.col-xs-6 .col-sm-3'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-xs-6 col-sm-3' },
-                '.col-xs-6 .col-sm-3'
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              { id: 'grid-offsetting' },
-              'Offsetting columns'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Move columns to the right using ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-offset-*'
-              ),
-              ' classes. These classes increase the left margin of a column by ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '*'
-              ),
-              ' columns. For example, ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-offset-4'
-              ),
-              ' moves ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-4'
-              ),
-              ' over four columns.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4' },
-                '.col-md-4'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-4 col-md-offset-4' },
-                '.col-md-4 .col-md-offset-4'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-3 col-md-offset-3' },
-                '.col-md-3 .col-md-offset-3'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-3 col-md-offset-3' },
-                '.col-md-3 .col-md-offset-3'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-6 col-md-offset-3' },
-                '.col-md-6 .col-md-offset-3'
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              { id: 'grid-nesting' },
-              'Nesting columns'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'To nest your content with the default grid, add a new ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.row'
-              ),
-              ' and set of',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-*'
-              ),
-              ' columns within an existing ',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-*'
-              ),
-              ' column. Nested rows should include a set of columns that add up to 12.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-9' },
-                'Level 1: .col-md-9',
-                _react2.default.createElement(
-                  'div',
-                  { className: 'row show-grid' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'col-md-6' },
-                    'Level 2: .col-md-6'
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'col-md-6' },
-                    'Level 2: .col-md-6'
-                  )
-                )
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'row' },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _Panel2.default,
-            null,
-            _react2.default.createElement(
-              'h3',
-              { id: 'grid-column-ordering' },
-              'Column ordering'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Easily change the order of our built-in grid columns with',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-push-*'
-              ),
-              ' and',
-              _react2.default.createElement(
-                'code',
-                null,
-                '.col-md-pull-*'
-              ),
-              ' modifier classes.'
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'row show-grid' },
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-9 col-md-push-3' },
-                '.col-md-9 .col-md-push-3'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'col-md-3 col-md-pull-9' },
-                '.col-md-3 .col-md-pull-9'
-              )
-            )
-          )
-        )
-      )
-    );
-  }
-  
-  displayGrid.contextTypes = { setTitle: _react.PropTypes.func.isRequired };
-  
-  exports.default = displayGrid;
-
-/***/ }),
-/* 210 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(12);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _Icons = __webpack_require__(211);
+  var _Icons = __webpack_require__(217);
   
   var _Icons2 = _interopRequireDefault(_Icons);
   
@@ -25415,7 +25107,7 @@ module.exports =
   };
 
 /***/ }),
-/* 211 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -28514,7 +28206,7 @@ module.exports =
   exports.default = displayIcons;
 
 /***/ }),
-/* 212 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -28527,7 +28219,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _MorrisjsCharts = __webpack_require__(213);
+  var _MorrisjsCharts = __webpack_require__(219);
   
   var _MorrisjsCharts2 = _interopRequireDefault(_MorrisjsCharts);
   
@@ -28543,7 +28235,7 @@ module.exports =
   };
 
 /***/ }),
-/* 213 */
+/* 219 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -28568,7 +28260,7 @@ module.exports =
   
   var _PageHeader2 = _interopRequireDefault(_PageHeader);
   
-  var _Donut = __webpack_require__(214);
+  var _Donut = __webpack_require__(220);
   
   var _Donut2 = _interopRequireDefault(_Donut);
   
@@ -28754,7 +28446,7 @@ module.exports =
   exports.default = displayMorrisjsCharts;
 
 /***/ }),
-/* 214 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -28938,7 +28630,7 @@ module.exports =
   exports.default = Donut;
 
 /***/ }),
-/* 215 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -28951,7 +28643,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Notification = __webpack_require__(216);
+  var _Notification = __webpack_require__(222);
   
   var _Notification2 = _interopRequireDefault(_Notification);
   
@@ -28967,7 +28659,7 @@ module.exports =
   };
 
 /***/ }),
-/* 216 */
+/* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -29120,7 +28812,7 @@ module.exports =
   exports.default = displayTable;
 
 /***/ }),
-/* 217 */
+/* 223 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -29133,7 +28825,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _PanelWells = __webpack_require__(218);
+  var _PanelWells = __webpack_require__(224);
   
   var _PanelWells2 = _interopRequireDefault(_PanelWells);
   
@@ -29149,7 +28841,7 @@ module.exports =
   };
 
 /***/ }),
-/* 218 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -29744,7 +29436,7 @@ module.exports =
   exports.default = displayPanelWells;
 
 /***/ }),
-/* 219 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -29757,7 +29449,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Typography = __webpack_require__(220);
+  var _Typography = __webpack_require__(226);
   
   var _Typography2 = _interopRequireDefault(_Typography);
   
@@ -29773,7 +29465,7 @@ module.exports =
   };
 
 /***/ }),
-/* 220 */
+/* 226 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30388,7 +30080,7 @@ module.exports =
   exports.default = displayTypography;
 
 /***/ }),
-/* 221 */
+/* 227 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30401,7 +30093,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _blank = __webpack_require__(222);
+  var _blank = __webpack_require__(228);
   
   var _blank2 = _interopRequireDefault(_blank);
   
@@ -30416,7 +30108,7 @@ module.exports =
   };
 
 /***/ }),
-/* 222 */
+/* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30460,7 +30152,7 @@ module.exports =
   exports.default = displayBlank;
 
 /***/ }),
-/* 223 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30509,7 +30201,7 @@ module.exports =
       */
 
 /***/ }),
-/* 224 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30522,7 +30214,7 @@ module.exports =
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Naslovna = __webpack_require__(225);
+  var _Naslovna = __webpack_require__(231);
   
   var _Naslovna2 = _interopRequireDefault(_Naslovna);
   
@@ -30539,7 +30231,7 @@ module.exports =
   // import App from '../../components/App';
 
 /***/ }),
-/* 225 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -30570,7 +30262,7 @@ module.exports =
   
   var _withStyles2 = _interopRequireDefault(_withStyles);
   
-  var _Naslovna = __webpack_require__(226);
+  var _Naslovna = __webpack_require__(232);
   
   var _Naslovna2 = _interopRequireDefault(_Naslovna);
   
@@ -30612,21 +30304,21 @@ module.exports =
           { header: _react2.default.createElement(
               'h3',
               null,
-              'Dobrodo\u0161li u \u0161kolu stranih jezika! bla bla bla.. ovdje cemo malo srediti jos.. nekoliko ruta..  kontaktrija (nije u srsu -- :)'
+              'Dobrodo\u0161li u \u0161kolu stranih jezika! OVO JE NASLOVNA STRANA.'
             ), className: 'login-panel' },
           _react2.default.createElement(
             _Button2.default,
             { type: 'submit', bsSize: 'large', bsStyle: 'success', onClick: function onClick(event) {
                 _history2.default.push('/login');
               }, block: true },
-            'Login'
+            'Prijavi se'
           ),
           _react2.default.createElement(
             _Button2.default,
             { type: 'submit', bsSize: 'large', bsStyle: 'success', onClick: function onClick(event) {
                 _history2.default.push('/register');
               }, block: true },
-            'Register'
+            'Napravi novi ra\u010Dun'
           )
         )
       )
@@ -30638,11 +30330,11 @@ module.exports =
   exports.default = (0, _withStyles2.default)(_Naslovna2.default)(Naslovna);
 
 /***/ }),
-/* 226 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
   
-      var content = __webpack_require__(227);
+      var content = __webpack_require__(233);
       var insertCss = __webpack_require__(23);
   
       if (typeof content === 'string') {
@@ -30672,7 +30364,7 @@ module.exports =
     
 
 /***/ }),
-/* 227 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(22)();
@@ -30680,7 +30372,7 @@ module.exports =
   
   
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\n}\n\n.Naslovna_root_1XV {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Naslovna_container_RVB {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n\n.Naslovna_lead_3nr {\n  font-size: 1.25em;\n}\n\n.Naslovna_formGroup_1kV {\n  margin-bottom: 15px;\n}\n\n.Naslovna_label_E2I {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n\n.Naslovna_input_XGN {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\n}\n\n.Naslovna_input_XGN:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.Naslovna_button_23W {\n  display: block;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n\n.Naslovna_button_23W:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n\n.Naslovna_button_23W:focus {\n  border-color: #0074c2;\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.Naslovna_facebook_3dS {\n  border-color: #3b5998;\n  background: #3b5998;\n}\n\n.Naslovna_facebook_3dS:hover {\n  background: #2d4373;\n}\n\n.Naslovna_google_1Pr {\n  border-color: #dd4b39;\n  background: #dd4b39;\n}\n\n.Naslovna_google_1Pr:hover {\n  background: #c23321;\n}\n\n.Naslovna_twitter_kXx {\n  border-color: #55acee;\n  background: #55acee;\n}\n\n.Naslovna_twitter_kXx:hover {\n  background: #2795e9;\n}\n\n.Naslovna_icon_1Vi {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n\n.Naslovna_lineThrough_5PQ {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n\n.Naslovna_lineThrough_5PQ::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n\n.Naslovna_lineThrough_5PQ::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n", "", {"version":3,"sources":["/./components/variables.css","/./routes/naslovna/Naslovna.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;AC5BD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;;AAED;EACE,kBAAkB;CACnB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;;AAED;EACE,mCAAmC;CACpC;;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Naslovna.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n","@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 380px;\n}\n\n.lead {\n  font-size: 1.25em;\n}\n\n.formGroup {\n  margin-bottom: 15px;\n}\n\n.label {\n  display: inline-block;\n  margin-bottom: 5px;\n  max-width: 100%;\n  font-weight: 700;\n}\n\n.input {\n  display: block;\n  box-sizing: border-box;\n  padding: 10px 16px;\n  width: 100%;\n  height: 46px;\n  outline: 0;\n  border: 1px solid #ccc;\n  border-radius: 0;\n  background: #fff;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n  color: #616161;\n  font-size: 18px;\n  line-height: 1.3333333;\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n}\n\n.input:focus {\n  border-color: #0074c2;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.button {\n  display: block;\n  box-sizing: border-box;\n  margin: 0;\n  padding: 10px 16px;\n  width: 100%;\n  outline: 0;\n  border: 1px solid #373277;\n  border-radius: 0;\n  background: #373277;\n  color: #fff;\n  text-align: center;\n  text-decoration: none;\n  font-size: 18px;\n  line-height: 1.3333333;\n  cursor: pointer;\n}\n\n.button:hover {\n  background: rgba(54, 50, 119, 0.8);\n}\n\n.button:focus {\n  border-color: #0074c2;\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\n}\n\n.facebook {\n  border-color: #3b5998;\n  background: #3b5998;\n  composes: button;\n}\n\n.facebook:hover {\n  background: #2d4373;\n}\n\n.google {\n  border-color: #dd4b39;\n  background: #dd4b39;\n  composes: button;\n}\n\n.google:hover {\n  background: #c23321;\n}\n\n.twitter {\n  border-color: #55acee;\n  background: #55acee;\n  composes: button;\n}\n\n.twitter:hover {\n  background: #2795e9;\n}\n\n.icon {\n  display: inline-block;\n  margin: -2px 12px -2px 0;\n  width: 20px;\n  height: 20px;\n  vertical-align: middle;\n  fill: currentColor;\n}\n\n.lineThrough {\n  position: relative;\n  z-index: 1;\n  display: block;\n  margin-bottom: 15px;\n  width: 100%;\n  color: #757575;\n  text-align: center;\n  font-size: 80%;\n}\n\n.lineThrough::before {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  margin-top: -5px;\n  margin-left: -20px;\n  width: 40px;\n  height: 10px;\n  background-color: #fff;\n  content: '';\n}\n\n.lineThrough::after {\n  position: absolute;\n  top: 49%;\n  z-index: -2;\n  display: block;\n  width: 100%;\n  border-bottom: 1px solid #ddd;\n  content: '';\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */  /* Extra small screen / phone */  /* Small screen / tablet */  /* Medium screen / desktop */ /* Large screen / wide desktop */\r\n}\r\n\r\n.Naslovna_root_1XV {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.Naslovna_container_RVB {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n\r\n.Naslovna_lead_3nr {\r\n  font-size: 1.25em;\r\n}\r\n\r\n.Naslovna_formGroup_1kV {\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.Naslovna_label_E2I {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n\r\n.Naslovna_input_XGN {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;\r\n}\r\n\r\n.Naslovna_input_XGN:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.Naslovna_button_23W {\r\n  display: block;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n\r\n.Naslovna_button_23W:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n\r\n.Naslovna_button_23W:focus {\r\n  border-color: #0074c2;\r\n  -webkit-box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n          box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.Naslovna_facebook_3dS {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n}\r\n\r\n.Naslovna_facebook_3dS:hover {\r\n  background: #2d4373;\r\n}\r\n\r\n.Naslovna_google_1Pr {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n}\r\n\r\n.Naslovna_google_1Pr:hover {\r\n  background: #c23321;\r\n}\r\n\r\n.Naslovna_twitter_kXx {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n}\r\n\r\n.Naslovna_twitter_kXx:hover {\r\n  background: #2795e9;\r\n}\r\n\r\n.Naslovna_icon_1Vi {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n\r\n.Naslovna_lineThrough_5PQ {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n\r\n.Naslovna_lineThrough_5PQ::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n\r\n.Naslovna_lineThrough_5PQ::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n", "", {"version":3,"sources":["/./components/variables.css","/./routes/naslovna/Naslovna.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;EACE;;gFAE8E;;EAI9E;;gFAE8E;;EAI9E;;gFAE8E,EAErD,gCAAgC,EAChC,2BAA2B,EAC3B,6BAA6B,CAC7B,iCAAiC;CAC3D;;AC5BD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,iBAAiB;CAClB;;AAED;EACE,kBAAkB;CACnB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,iBAAiB;CAClB;;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,WAAW;EACX,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,yDAAiD;UAAjD,iDAAiD;EACjD,eAAe;EACf,gBAAgB;EAChB,uBAAuB;EACvB,yFAAyE;EAAzE,iFAAyE;EAAzE,4EAAyE;EAAzE,yEAAyE;EAAzE,+GAAyE;CAC1E;;AAED;EACE,sBAAsB;EACtB,yFAAiF;UAAjF,iFAAiF;CAClF;;AAED;EACE,eAAe;EACf,+BAAuB;UAAvB,uBAAuB;EACvB,UAAU;EACV,mBAAmB;EACnB,YAAY;EACZ,WAAW;EACX,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,gBAAgB;EAChB,uBAAuB;EACvB,gBAAgB;CACjB;;AAED;EACE,mCAAmC;CACpC;;AAED;EACE,sBAAsB;EACtB,mDAA2C;UAA3C,2CAA2C;CAC5C;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CAErB;;AAED;EACE,oBAAoB;CACrB;;AAED;EACE,sBAAsB;EACtB,yBAAyB;EACzB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,eAAe;EACf,oBAAoB;EACpB,YAAY;EACZ,eAAe;EACf,mBAAmB;EACnB,eAAe;CAChB;;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;EACnB,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,YAAY;CACb;;AAED;EACE,mBAAmB;EACnB,SAAS;EACT,YAAY;EACZ,eAAe;EACf,YAAY;EACZ,8BAA8B;EAC9B,YAAY;CACb","file":"Naslovna.css","sourcesContent":["/**\r\n * React Starter Kit (https://www.reactstarterkit.com/)\r\n *\r\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\r\n *\r\n * This source code is licensed under the MIT license found in the\r\n * LICENSE.txt file in the root directory of this source tree.\r\n */\r\n\r\n:root {\r\n  /*\r\n   * Typography\r\n   * ======================================================================== */\r\n\r\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\r\n\r\n  /*\r\n   * Layout\r\n   * ======================================================================== */\r\n\r\n  --max-content-width: 1000px;\r\n\r\n  /*\r\n   * Media queries breakpoints\r\n   * ======================================================================== */\r\n\r\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\r\n  --screen-sm-min: 768px;  /* Small screen / tablet */\r\n  --screen-md-min: 992px;  /* Medium screen / desktop */\r\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\r\n}\r\n","@import '../../components/variables.css';\r\n\r\n.root {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.container {\r\n  margin: 0 auto;\r\n  padding: 0 0 40px;\r\n  max-width: 380px;\r\n}\r\n\r\n.lead {\r\n  font-size: 1.25em;\r\n}\r\n\r\n.formGroup {\r\n  margin-bottom: 15px;\r\n}\r\n\r\n.label {\r\n  display: inline-block;\r\n  margin-bottom: 5px;\r\n  max-width: 100%;\r\n  font-weight: 700;\r\n}\r\n\r\n.input {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  height: 46px;\r\n  outline: 0;\r\n  border: 1px solid #ccc;\r\n  border-radius: 0;\r\n  background: #fff;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\r\n  color: #616161;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\r\n}\r\n\r\n.input:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.button {\r\n  display: block;\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 10px 16px;\r\n  width: 100%;\r\n  outline: 0;\r\n  border: 1px solid #373277;\r\n  border-radius: 0;\r\n  background: #373277;\r\n  color: #fff;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 18px;\r\n  line-height: 1.3333333;\r\n  cursor: pointer;\r\n}\r\n\r\n.button:hover {\r\n  background: rgba(54, 50, 119, 0.8);\r\n}\r\n\r\n.button:focus {\r\n  border-color: #0074c2;\r\n  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);\r\n}\r\n\r\n.facebook {\r\n  border-color: #3b5998;\r\n  background: #3b5998;\r\n  composes: button;\r\n}\r\n\r\n.facebook:hover {\r\n  background: #2d4373;\r\n}\r\n\r\n.google {\r\n  border-color: #dd4b39;\r\n  background: #dd4b39;\r\n  composes: button;\r\n}\r\n\r\n.google:hover {\r\n  background: #c23321;\r\n}\r\n\r\n.twitter {\r\n  border-color: #55acee;\r\n  background: #55acee;\r\n  composes: button;\r\n}\r\n\r\n.twitter:hover {\r\n  background: #2795e9;\r\n}\r\n\r\n.icon {\r\n  display: inline-block;\r\n  margin: -2px 12px -2px 0;\r\n  width: 20px;\r\n  height: 20px;\r\n  vertical-align: middle;\r\n  fill: currentColor;\r\n}\r\n\r\n.lineThrough {\r\n  position: relative;\r\n  z-index: 1;\r\n  display: block;\r\n  margin-bottom: 15px;\r\n  width: 100%;\r\n  color: #757575;\r\n  text-align: center;\r\n  font-size: 80%;\r\n}\r\n\r\n.lineThrough::before {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  z-index: -1;\r\n  margin-top: -5px;\r\n  margin-left: -20px;\r\n  width: 40px;\r\n  height: 10px;\r\n  background-color: #fff;\r\n  content: '';\r\n}\r\n\r\n.lineThrough::after {\r\n  position: absolute;\r\n  top: 49%;\r\n  z-index: -2;\r\n  display: block;\r\n  width: 100%;\r\n  border-bottom: 1px solid #ddd;\r\n  content: '';\r\n}\r\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -30699,391 +30391,10 @@ module.exports =
   };
 
 /***/ }),
-/* 228 */
+/* 234 */
 /***/ (function(module, exports) {
 
   module.exports = require("./assets");
-
-/***/ }),
-/* 229 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _react = __webpack_require__(12);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _kursevi = __webpack_require__(230);
-  
-  var _kursevi2 = _interopRequireDefault(_kursevi);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  exports.default = {
-  
-    path: '/kursevi',
-  
-    action: function action() {
-      return _react2.default.createElement(_kursevi2.default, null);
-    }
-  };
-
-/***/ }),
-/* 230 */
-/***/ (function(module, exports, __webpack_require__) {
-
-  'use strict';
-  
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  
-  var _getPrototypeOf = __webpack_require__(40);
-  
-  var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-  
-  var _classCallCheck2 = __webpack_require__(41);
-  
-  var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-  
-  var _createClass2 = __webpack_require__(42);
-  
-  var _createClass3 = _interopRequireDefault(_createClass2);
-  
-  var _possibleConstructorReturn2 = __webpack_require__(43);
-  
-  var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-  
-  var _inherits2 = __webpack_require__(44);
-  
-  var _inherits3 = _interopRequireDefault(_inherits2);
-  
-  var _react = __webpack_require__(12);
-  
-  var _react2 = _interopRequireDefault(_react);
-  
-  var _reactBootstrap = __webpack_require__(49);
-  
-  var _FormControlFeedback = __webpack_require__(179);
-  
-  var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
-  
-  var _FormControlStatic = __webpack_require__(180);
-  
-  var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
-  
-  var _InputGroupAddon = __webpack_require__(181);
-  
-  var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
-  
-  var _axios = __webpack_require__(61);
-  
-  var _axios2 = _interopRequireDefault(_axios);
-  
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-  
-  var title = 'Kursevi';
-  
-  function submitHandler(e) {
-    e.preventDefault();
-    //history.push('/');
-  
-    var nazivKursa = document.getElementById("iNaziv").value;
-    var stepenKursa = document.getElementById("iStepenKursa").value;
-    //console.log(nazivKursa + " -- " + stepenKursa);
-  
-    _axios2.default.post('http://localhost:8080//dodajKurs', {
-      naziv: nazivKursa,
-      stepen: stepenKursa
-    }).then(function (response) {
-      console.log("Register response", response.data.isSuccess);
-      alert("Uspjesno dodan novi kurs!");
-    }).catch(function (error) {
-      console.error("Register error", error);
-      alert("Došlo je do greške prilikom registrovanja.");
-    });
-  }
-  
-  function brisanjeKursa(idKursa) {
-    alert("Trenutno nije moguce obrisati kurs. Backend tim nije napravio kontroler za to a meni je sad mrsko to radti!");
-  }
-  
-  var UnosKursa = function (_React$Component) {
-    (0, _inherits3.default)(UnosKursa, _React$Component);
-  
-    function UnosKursa() {
-      (0, _classCallCheck3.default)(this, UnosKursa);
-      return (0, _possibleConstructorReturn3.default)(this, (UnosKursa.__proto__ || (0, _getPrototypeOf2.default)(UnosKursa)).apply(this, arguments));
-    }
-  
-    (0, _createClass3.default)(UnosKursa, [{
-      key: 'render',
-      value: function render() {
-        return _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'div',
-            { className: 'row' },
-            _react2.default.createElement(
-              'div',
-              { className: 'col-lg-12' },
-              _react2.default.createElement(
-                _reactBootstrap.PageHeader,
-                null,
-                'Dodaj kurs'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'row' },
-            _react2.default.createElement(
-              'div',
-              { className: 'col-lg-12' },
-              _react2.default.createElement(
-                _reactBootstrap.Panel,
-                { header: _react2.default.createElement(
-                    'span',
-                    null,
-                    'Unesite novi kurs'
-                  ) },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'row' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'col-lg-6' },
-                    _react2.default.createElement(
-                      _reactBootstrap.Form,
-                      { role: 'form', onSubmit: function onSubmit(e) {
-                          submitHandler(e);
-                        } },
-                      _react2.default.createElement(
-                        'fieldset',
-                        null,
-                        _react2.default.createElement(
-                          'div',
-                          { className: 'form-group' },
-                          _react2.default.createElement(
-                            'label',
-                            { 'for': 'sel1' },
-                            'Odaberite stepen kursa'
-                          ),
-                          _react2.default.createElement(
-                            'select',
-                            { className: 'form-control', id: 'iNaziv' },
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'Engleski'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'Njemacki'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'Spanski'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'Turski'
-                            )
-                          )
-                        ),
-                        _react2.default.createElement(
-                          'div',
-                          { className: 'form-group' },
-                          _react2.default.createElement(
-                            'label',
-                            { 'for': 'sel1' },
-                            'Odaberite stepen kursa'
-                          ),
-                          _react2.default.createElement(
-                            'select',
-                            { className: 'form-control', id: 'iStepenKursa' },
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'A1'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'A2'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'B1'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'B2'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'C1'
-                            ),
-                            _react2.default.createElement(
-                              'option',
-                              null,
-                              'C2'
-                            )
-                          )
-                        ),
-                        _react2.default.createElement(
-                          _reactBootstrap.Button,
-                          { type: 'submit', bsSize: 'large', bsStyle: 'success', block: true },
-                          'Dodajte novi kurs'
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          )
-        );
-      }
-    }]);
-    return UnosKursa;
-  }(_react2.default.Component);
-  
-  var IspisSvihKurseva = _react2.default.createClass({
-    displayName: 'IspisSvihKurseva',
-  
-  
-    getInitialState: function getInitialState() {
-      return {
-        users: []
-      };
-    },
-  
-    componentDidMount: function componentDidMount() {
-      var _this = this;
-      _axios2.default.get("http://localhost:8080/kursevi").then(function (result) {
-        _this.setState({
-          users: result.data
-        });
-      });
-    },
-  
-    render: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-12' },
-          _react2.default.createElement(
-            _reactBootstrap.PageHeader,
-            null,
-            'Svi kursevi'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'col-lg-6' },
-          _react2.default.createElement(
-            _reactBootstrap.Panel,
-            { header: _react2.default.createElement(
-                'span',
-                null,
-                'Kursevi'
-              ) },
-            _react2.default.createElement(
-              'div',
-              { className: 'table-responsive' },
-              _react2.default.createElement(
-                'table',
-                { className: 'table table-striped table-bordered table-hover' },
-                _react2.default.createElement(
-                  'thead',
-                  null,
-                  _react2.default.createElement(
-                    'tr',
-                    null,
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Jezik'
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Stepen '
-                    ),
-                    _react2.default.createElement(
-                      'th',
-                      null,
-                      'Izbrisi kurs'
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'tbody',
-                  null,
-                  this.state.users.map(function (user) {
-                    return _react2.default.createElement(
-                      'tr',
-                      { key: user.id },
-                      _react2.default.createElement(
-                        'td',
-                        null,
-                        user.naziv
-                      ),
-                      _react2.default.createElement(
-                        'td',
-                        null,
-                        user.stepen
-                      ),
-                      _react2.default.createElement(
-                        'td',
-                        null,
-                        _react2.default.createElement(
-                          'button',
-                          { type: 'button', onClick: function onClick(event) {
-                              brisanjeKursa(user.id);
-                            } },
-                          'Izbrisi'
-                        )
-                      )
-                    );
-                  })
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  });
-  
-  function displayForms(props, context) {
-    context.setTitle(title);
-    return _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(UnosKursa, null),
-      _react2.default.createElement(IspisSvihKurseva, null)
-    );
-  }
-  
-  displayForms.contextTypes = { setTitle: _react.PropTypes.func.isRequired };
-  
-  exports.default = displayForms;
 
 /***/ })
 /******/ ]);

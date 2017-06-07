@@ -55,13 +55,13 @@ var displayTable =  React.createClass({
         <PageHeader>Edituj listu korisnika -tip -admini</PageHeader>
       </div>    
         <div className="col-lg-6">
-          <Panel header={<span>Predavaci</span>} >
+          <Panel header={<span>Administratori</span>} >
             <div className="table-responsive">
               <table className="table table-striped table-bordered table-hover">
                 <thead>
                   <tr>                 
-                    <th>Ime</th>
-                    <th>Prezime </th>                 
+                    <th>Korisničko ime</th>
+                                   
                     <th>Izbrisi korisnika</th>
 
                   </tr>
@@ -72,7 +72,7 @@ var displayTable =  React.createClass({
                   return (
                     <tr key={user.id}>             
                     <td>{user.korisnickoIme}</td>
-                    <td>{user.sifra}</td>                              
+                                               
                     <td><button type="button" onClick ={(event)=>{submitHandler(user.id);}}>Izbrisi</button></td>
                        </tr>                        
                   );

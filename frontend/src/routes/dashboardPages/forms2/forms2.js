@@ -82,13 +82,13 @@ var DodavanjePredavaca = React.createClass({
        <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>Dodaj učitelja</PageHeader>
+          <PageHeader>Dodaj predavaca</PageHeader>
         </div>
       </div>
 
       <div className="row">
         <div className="col-lg-12">
-          <Panel header={<span>Unesite novog ucitelja</span>} >
+          <Panel header={<span>Unesite novog predavaca</span>} >
             <div className="row">
               <div className="col-lg-6">
                 <Form role="form" onSubmit={(e) => { submitHandler(e); }}>
@@ -97,7 +97,7 @@ var DodavanjePredavaca = React.createClass({
               <FormControl
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Korisničko ime"
                 name="name"
                 id="iUsername"
               />
@@ -117,7 +117,7 @@ var DodavanjePredavaca = React.createClass({
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Password"
+                placeholder="Šifra"
                 type="password"
                 name="password"
                 id="iPassword"
@@ -127,7 +127,7 @@ var DodavanjePredavaca = React.createClass({
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Confirm Password"
+                placeholder="Potvrdi šifru"
                 type="password"
                 name="password"
                 id="iPasswordConfirm"
@@ -183,7 +183,7 @@ var DodavanjePredavaca = React.createClass({
 
 
 
-<Button type="submit" bsSize="large" bsStyle="success" block>Registruj profesora</Button>
+<Button type="submit" bsSize="large" bsStyle="success" block>Registruj predavaca</Button>
 
 
         

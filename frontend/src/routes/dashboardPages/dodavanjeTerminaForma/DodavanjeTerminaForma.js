@@ -100,7 +100,7 @@ function displayForms(props, context) {
               />
             </div>
 
-            <Button type="submit" bsSize="large" bsStyle="success" block>Register</Button>
+            <Button type="submit" bsSize="large" bsStyle="success" block>Dodaj termin</Button>
 
             </fieldset>
                 </Form>

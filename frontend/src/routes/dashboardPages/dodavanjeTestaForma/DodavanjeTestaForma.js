@@ -27,20 +27,20 @@ function displayForms(props, context) {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>Dodaj učitelja</PageHeader>
+          <PageHeader>Dodaj novi test</PageHeader>
         </div>
       </div>
 
       <div className="row">
         <div className="col-lg-12">
-          <Panel header={<span>Unesite novog ucitelja</span>} >
+          <Panel header={<span>Unesite novi test</span>} >
             <div className="row">
               <div className="col-lg-6">
                 <Form>
                   
                  
                   <FormGroup controlId="formBasicText2">
-                    <ControlLabel>Naziv lekcije</ControlLabel>
+                    <ControlLabel>Naziv testa</ControlLabel>
                     <FormControl
                       type="text"
                       placeholder="Enter Text"
@@ -55,16 +55,16 @@ function displayForms(props, context) {
                   <FormGroup
                     controlId="formBasicFile"
                   >
-                    <ControlLabel>Uploaduj lekciju</ControlLabel>
+                    <ControlLabel>Uploaduj test</ControlLabel>
                     <FormControl
                       type="file"
                     />
                     <FormControlFeedback />
                   </FormGroup>                           
                   <FormGroup>
-                    <Button type="submit">Dodaj lekciju</Button>
-                    {'  '}
-                    <Button type="reset">Resetuj: </Button>
+                    <Button type="submit">Dodaj test</Button>
+                   
+                  
                   </FormGroup>
                 </Form>
               </div>  

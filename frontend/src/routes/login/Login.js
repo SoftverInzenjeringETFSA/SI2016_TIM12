@@ -75,7 +75,7 @@ function Login(props, context) {
 
 
     <div className="col-md-4 col-md-offset-4">  
-      <Panel header={<h3>Please Sign In</h3>} className="login-panel">
+      <Panel header={<h3>Prijavi se na svoj račun</h3>} className="login-panel">
 
         <form role="form" onSubmit={(e) => { submitHandler(e); }}>
           <fieldset>
@@ -83,7 +83,7 @@ function Login(props, context) {
               <FormControl
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Korisnicko ime"
                 name="name"
                 id="iName"
               />
@@ -92,7 +92,7 @@ function Login(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Password"
+                placeholder="Šifra"
                 type="password"
                 name="password"
                 id="iPassword"

@@ -74,7 +74,7 @@ function Register(props, context) {
               <FormControl
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Korisničko ime"
                 name="name"
                 id="iUsername"
               />
@@ -94,7 +94,7 @@ function Register(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Password"
+                placeholder="Šifra"
                 type="password"
                 name="password"
                 id="iPassword"
@@ -104,7 +104,7 @@ function Register(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Confirm Password"
+                placeholder="Potvrdi Šifru"
                 type="password"
                 name="password"
                 id="iPasswordConfirm"
@@ -122,6 +122,7 @@ function Register(props, context) {
             </div>
 
             <div className="form-group">
+            <label> Datum rođenja</label>
               <FormControl
                 type="date"
                 className="form-control"
@@ -173,7 +174,7 @@ function Register(props, context) {
 
 
 
-            <Button type="submit" bsSize="large" bsStyle="success" block>Register</Button>
+            <Button type="submit" bsSize="large" bsStyle="success" block>Kreiraj korisnički račun!</Button>
 
           </fieldset>
         </form>

@@ -27,9 +27,9 @@ function Naslovna(props, context) {
   return (
 <div>
  <div className="col-md-3 col-md-offset-3">
-      <Panel header={<h3>Dobrodošli u školu stranih jezika! bla bla bla.. ovdje cemo malo srediti jos.. nekoliko ruta..  kontaktrija (nije u srsu -- :)</h3>} className="login-panel">
-        <Button type="submit" bsSize="large" bsStyle="success" onClick = {(event) => { history.push('/login');}} block>Login</Button>
-        <Button type="submit" bsSize="large" bsStyle="success" onClick = {(event) => { history.push('/register');}} block>Register</Button>
+      <Panel header={<h3>Dobrodošli u školu stranih jezika! OVO JE NASLOVNA STRANA.</h3>} className="login-panel">
+        <Button type="submit" bsSize="large" bsStyle="success" onClick = {(event) => { history.push('/login');}} block>Prijavi se</Button>
+        <Button type="submit" bsSize="large" bsStyle="success" onClick = {(event) => { history.push('/register');}} block>Napravi novi račun</Button>
 
       </Panel>
 

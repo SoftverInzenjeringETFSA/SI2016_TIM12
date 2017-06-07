@@ -55,13 +55,13 @@ function displayForms(props, context) {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>Dodaj učitelja</PageHeader>
+          <PageHeader>Dodaj novu lekciju</PageHeader>
         </div>
       </div>
 
       <div className="row">
         <div className="col-lg-12">
-          <Panel header={<span>Unesite novog ucitelja</span>} >
+          <Panel header={<span>Unesite novu lekciju</span>} >
             <div className="row">
               <div className="col-lg-6">
                 <Form>
@@ -92,7 +92,6 @@ function displayForms(props, context) {
                   <FormGroup>
                     <Button type="submit">Dodaj lekciju</Button>
                    
-                    <Button type="reset">Resetuj: </Button>
                   </FormGroup>
                 </Form>
               </div>  

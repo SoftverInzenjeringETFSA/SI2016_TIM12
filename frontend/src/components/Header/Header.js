@@ -49,7 +49,7 @@ function Header() {
               <img src={logo} alt="Start React" title="Start React" />
               <span>&nbsp;Strani Jezici -test </span>            
                 <button type="button" className="navbar-toggle" onClick={() => {toggleMenu();}} style={{position: 'absolute', right: 0, top: 0}}>
-                  <span className="sr-only">Toggle navigation</span>
+                  <span className="sr-only">Navigacija</span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
@@ -61,16 +61,10 @@ function Header() {
 
              
            <NavDropdown title={<i className="fa fa-user fa-fw"></i> } id = 'navDropdown4'>
-                  <MenuItem eventKey="1">
-                    <span> <i className="fa fa-user fa-fw"></i> User Profile </span>
-                  </MenuItem>
-                  <MenuItem eventKey="2">
-                    <span><i className="fa fa-gear fa-fw"></i> Settings </span>
-                  </MenuItem>
                   
                   <MenuItem divider />
                   <MenuItem eventKey = "4" onClick = {(event) => { history.push('/login');}}>
-                    <span> <i className = "fa fa-sign-out fa-fw" /> Logout </span>
+                    <span> <i className = "fa fa-sign-out fa-fw" /> Odjavite se </span>
                   </MenuItem>
             </NavDropdown>
 

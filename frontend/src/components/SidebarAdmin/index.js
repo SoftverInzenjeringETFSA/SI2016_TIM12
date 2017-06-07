@@ -65,6 +65,11 @@ class SidebarAdmin extends Component {
                 <i className="fa fa-dashboard fa-fw" /> &nbsp;Kursevi
               </a>
             </li>
+              <li>
+              <a href="" onClick={(e) => { e.preventDefault(); history.push('/pomoc1'); }} >
+                <i className="fa fa-dashboard fa-fw" /> &nbsp;Pomoć
+              </a>
+            </li>
 
 
            
