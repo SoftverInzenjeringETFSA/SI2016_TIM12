@@ -34,17 +34,31 @@ function submitHandler(e) {
   if (pass != passConfirm) {
     alert("Šifra za potvrdu mora biti jednaka orginalnoj šifri.");
   } else {
-    axios.post('http://localhost:8080/administratori', {
-    korisnickoIme: username,
-    sifra: pass,
-  })
   .then(function (response) {
-    console.log("Register response", response.data.isSuccess);
-    alert("Uspjesno ste dodali administratora.");   
+        console.log(response);
+        if(response.data == "slobodno")
+        {
+            axios.post('http://localhost:8080/administratori', {
+            korisnickoIme: username,
+            sifra: pass,
+          })
+          .then(function (response) {
+            console.log("Register response", response.data.isSuccess);
+            alert("Uspjesno ste dodali administratora.");   
+          })
+          .catch(function (error) {
+            console.error("Register error", error);
+            alert("Došlo je do greške prilikom registrovanja.");         
+          });
+        }
+        else 
+        {
+          alert("Već postoji borac sa odabranim korisničkim imenom!");
+        }
   })
   .catch(function (error) {
-    console.error("Register error", error);
-    alert("Došlo je do greške prilikom registrovanja.");         
+    console.log(error);
+    alert("Desila se greška! ");
   });
   }
 }

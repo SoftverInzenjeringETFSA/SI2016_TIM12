@@ -38,23 +38,42 @@ function submitHandler(e) {
   if (pass != passConfirm) {
     alert("Šifra za potvrdu mora biti jednaka orginalnoj šifri.");
   } else {
-    axios.post('http://localhost:8080/dodajPredavaca', {
-    korisnickoIme: username,
-    sifra: pass,
-    email: email,
-    brojTelefona: document.getElementById("ibrojTelefona").value,
-    ime: document.getElementById("iIme").value,
-    prezime: document.getElementById("iPrezime").value,
-    kurs:kursDodavanje, 
-
+  axios.get('http://localhost:8080/slobodanUsername', {
+    params: {
+      korisnickoIme: username
+    }
   })
   .then(function (response) {
-    console.log("Register response", response.data.isSuccess);
-    alert("Uspjesno ste dodali novog ucitelja/predavaca/profesora ili kako god ga nazvali!");   
+        console.log(response);
+        if(response.data == "slobodno")
+        {
+            axios.post('http://localhost:8080/dodajPredavaca', {
+                korisnickoIme: username,
+                sifra: pass,
+                email: email,
+                brojTelefona: document.getElementById("ibrojTelefona").value,
+                ime: document.getElementById("iIme").value,
+                prezime: document.getElementById("iPrezime").value,
+                kurs:kursDodavanje, 
+
+              })
+              .then(function (response) {
+                console.log("Register response", response.data.isSuccess);
+                alert("Uspjesno ste dodali novog ucitelja/predavaca/profesora ili kako god ga nazvali!");   
+              })
+              .catch(function (error) {
+                console.error("Register error", error);
+                alert("Došlo je do greške prilikom registrovanja.");         
+              });
+        }
+        else 
+        {
+          alert("Već postoji borac sa odabranim korisničkim imenom!");
+        }
   })
   .catch(function (error) {
-    console.error("Register error", error);
-    alert("Došlo je do greške prilikom registrovanja.");         
+    console.log(error);
+    alert("Desila se greška! ");
   });
   }
 }

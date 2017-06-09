@@ -14,15 +14,18 @@ const title = 'SviKorisnici';
 function submitHandler(sifra){
 
   //history.push('/');
-  
-    axios.post('http://localhost:8080/obrisiAdministratora/' + sifra)
+   axios.get('http://localhost:8080/obrisiAdministratora', {
+    params: {
+      id: sifra
+    }
+  })
   .then(function (response) {
     console.log("Register response", response.data.isSuccess);
-    alert("Uspješno ste se obrisali predavaca");   
+    alert("Uspješno ste se obrisali adaministratora");   
   })
   .catch(function (error) {
     console.error("Register error", error);
-    alert("Nije moguce obrisati administratora. Možda će se kasnije implementirati");         
+    alert("Desila se greška pri brisanju!");         
   });
   }
 

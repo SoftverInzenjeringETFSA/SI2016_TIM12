@@ -33,26 +33,48 @@ function submitHandler(e) {
   if (pass != passConfirm) {
     alert("Šifra za potvrdu mora biti jednaka orginalnoj šifri.");
   } else {
-    axios.post('http://localhost:8080/studenti', {
-    korisnickoIme: username,
-    sifra: pass,
-    email: email,
-    adresaBoravista: document.getElementById("iAdresaBoravista").value,
-    datumRodjenja: document.getElementById("iDatumRodjenja").value,
-    ime: document.getElementById("iIme").value,
-    jmbg: document.getElementById("iJmbg").value,
-    mjestoRodjenja: document.getElementById("iMjestoRodjenja").value,
-    prezime: document.getElementById("iPrezime").value
 
+
+     axios.get('http://localhost:8080/slobodanUsername', {
+    params: {
+      korisnickoIme: username
+    }
   })
   .then(function (response) {
-    console.log("Register response", response.data.isSuccess);
-    alert("Uspješno ste se registrovali. Sada se možete logovati sa registrovanim podacima.");   
+        console.log(response);
+        if(response.data == "slobodno")
+        {
+            axios.post('http://localhost:8080/studenti', {
+            korisnickoIme: username,
+            sifra: pass,
+            email: email,
+            adresaBoravista: document.getElementById("iAdresaBoravista").value,
+            datumRodjenja: document.getElementById("iDatumRodjenja").value,
+            ime: document.getElementById("iIme").value,
+            jmbg: document.getElementById("iJmbg").value,
+            mjestoRodjenja: document.getElementById("iMjestoRodjenja").value,
+            prezime: document.getElementById("iPrezime").value
+
+          })
+          .then(function (response) {
+            console.log("Register response", response.data.isSuccess);
+            alert("Uspješno ste se registrovali. Sada se možete logovati sa registrovanim podacima.");   
+          })
+          .catch(function (error) {
+            console.error("Register error", error);
+            alert("Došlo je do greške prilikom registrovanja.");         
+          });
+        }
+        else 
+        {
+          alert("Već postoji borac sa odabranim korisničkim imenom!");
+        }
   })
   .catch(function (error) {
-    console.error("Register error", error);
-    alert("Došlo je do greške prilikom registrovanja.");         
+    console.log(error);
+    alert("Desila se greška! ");
   });
+    
   }
 }
 
