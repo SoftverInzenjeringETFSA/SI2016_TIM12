@@ -9,8 +9,11 @@ import java.util.Arrays;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
+import javax.swing.text.Document;
 
+import org.hibernate.Hibernate;
 import org.instasi.jeziki.springbootstarter.models.Kurs;
+import org.instasi.jeziki.springbootstarter.models.Lekcija;
 import org.instasi.jeziki.springbootstarter.models.Pitanje;
 import org.instasi.jeziki.springbootstarter.models.Predavanje;
 import org.instasi.jeziki.springbootstarter.models.Student;
@@ -25,7 +28,9 @@ import org.instasi.jeziki.springbootstarter.services.PredavanjeService;
 import org.instasi.jeziki.springbootstarter.services.StudentService;
 import org.instasi.jeziki.springbootstarter.services.TestService;
 import org.instasi.jeziki.springbootstarter.services.ZapisService;
+import org.instasi.jeziki.springbootstarter.services.LekcijaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -38,6 +43,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mysql.jdbc.Blob;
 
 import aj.org.objectweb.asm.TypeReference;
 
@@ -58,6 +64,8 @@ public class PredavacController {
 	private ZapisService zapisService;
 	@Autowired
 	private StudentService studentService;
+	@Autowired
+	private LekcijaService lekcijaService;
 	
 	
 	@RequestMapping(method=RequestMethod.POST, value="/objaviTermin")
@@ -109,6 +117,12 @@ public class PredavacController {
 		
 	}
 	
+	@RequestMapping(method=RequestMethod.POST, value="/uploadLekcija")
+	public void dodajLekciju(@RequestBody Lekcija l)
+	{
+		lekcijaService.dodajLekciju(l);
+	
+	}
 	
 	@RequestMapping(method=RequestMethod.POST, value="/kreirajTest")
 	public void kreirajTest(
@@ -158,7 +172,9 @@ public class PredavacController {
 		
 	}
 	
-	@RequestMapping(value = "/postavljanjeMaterijala", method = RequestMethod.POST)
+	
+	
+ /*	@RequestMapping(value = "/postavljanjeMaterijala", method = RequestMethod.POST)
 	public @ResponseBody
 	void uploadFileHandler(@RequestParam("kurs") int kurs,
 			@RequestParam("file") MultipartFile file) {
@@ -222,7 +238,7 @@ public class PredavacController {
 
 		}
 	
-	
+	*/
 	
 	
 }

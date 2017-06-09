@@ -1,17 +1,21 @@
 package org.instasi.jeziki.springbootstarter.models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 
-import org.instasi.jeziki.springbootstarter.models.*;;
+import org.instasi.jeziki.springbootstarter.models.*;
+
+import com.mysql.jdbc.Blob;;
 
 @Entity
 
-public class Materijal {
+public class Lekcija {
 
 	
 	@Id
@@ -19,24 +23,35 @@ public class Materijal {
 	    private Integer id;
 
 	    //@Cascade({ CascadeType.SAVE_UPDATE })
-	    @ManyToOne(targetEntity=Predavanje.class)
-	    @JoinColumn(name="predavanje_id")
-	    private Predavanje predavanje;
-
+	    @ManyToOne(targetEntity=Kurs.class)
+	    @JoinColumn(name="kurs_id")
+	    private Kurs kurs;
+        @Column(name="naziv")
 	    private String naziv;
-
+        @Column(name="opis")
 	    private String opis;
 
-	    // ponovo blob materijal
+	    @Column(name="sadrzaj")
+		@Lob
+		private Blob sadrzaj;
+	    
 
 
-	    public Materijal(Predavanje predavanje, String naziv, String opis) {
-	        this.predavanje = predavanje;
+	    public Lekcija(Kurs kurs, String naziv, String opis) {
+	        this.kurs = kurs;
 	        this.naziv = naziv;
 	        this.opis = opis;
 	    }
 
-	    public Materijal() {
+	    public Blob getSadrzaj() {
+			return sadrzaj;
+		}
+
+		public void setSadrzaj(Blob sadrzaj) {
+			this.sadrzaj = sadrzaj;
+		}
+
+		public Lekcija() {
 	    }
 
 	    public Integer getId() {
@@ -47,12 +62,12 @@ public class Materijal {
 	        this.id = materijalId;
 	    }
 
-	    public Predavanje getPredavanje() {
-	        return predavanje;
+	    public Kurs getKurs() {
+	        return kurs;
 	    }
 
-	    public void setPredavanje(Predavanje predavanje) {
-	        this.predavanje = predavanje;
+	    public void setKurs(Kurs kurs) {
+	        this.kurs = kurs;
 	    }
 
 	    public String getNaziv() {
